@@ -1,4 +1,4 @@
-const CACHE_NAME = 'altonale-programm-cache-v49';
+const CACHE_NAME = 'veproplan-cache-v1';
 const ASSETS = [
   './',
   './index.html',
@@ -6,7 +6,6 @@ const ASSETS = [
   './app.js',
   './js-yaml.min.js',
   './manifest.json',
-  './perspectives_2026_programm.yaml',
   './icon.svg',
   './favicon.ico'
 ];

@@ -6,6 +6,9 @@ Veranstaltung:
   ort: Hamburg
   veranstalter: oose eG
   quelle: https://www.perspectives-festival.de/de/agenda
+  icon: icon.svg
+  theme_color: '#340f52'
+  background_color: '#100718'
 programm:
 - zeitpunkt: 2026-06-26T09:00
   ort: 4. OG, HoheLoft

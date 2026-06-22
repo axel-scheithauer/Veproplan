@@ -1,4 +1,7 @@
-const dataUrl = 'perspectives_2026_programm.yaml';
+const _yamlParam = new URLSearchParams(location.search).get('yaml');
+const dataUrl = (_yamlParam && /^[\w\-. ]+\.ya?ml$/i.test(_yamlParam))
+  ? _yamlParam
+  : 'test conference.yaml';
 const cardContainer = document.getElementById('card-container');
 const hintPanel = document.getElementById('hint-panel');
 const screenTitle = document.getElementById('screen-title');
@@ -829,10 +832,47 @@ function bindControls() {
   }
 }
 
+function applyAppConfig(parsed) {
+  const config = parsed?.Veranstaltung || {};
+  const name = config.name || config.titel || 'Programm';
+  const themeColor = config.theme_color || '#340f52';
+  const bgColor = config.background_color || '#100718';
+  const iconSrc = config.icon || 'icon.svg';
+  const iconType = /\.svg$/i.test(iconSrc) ? 'image/svg+xml'
+    : /\.png$/i.test(iconSrc) ? 'image/png' : 'image/png';
+  const iconUrl = /^https?:\/\//.test(iconSrc)
+    ? iconSrc : new URL(iconSrc, location.href).href;
+
+  document.title = name;
+  const themeMeta = document.querySelector('meta[name="theme-color"]');
+  if (themeMeta) themeMeta.content = themeColor;
+
+  const manifest = {
+    name, short_name: name,
+    start_url: location.href,
+    display: 'standalone',
+    background_color: bgColor,
+    theme_color: themeColor,
+    icons: [
+      { src: iconUrl, sizes: '192x192', type: iconType },
+      { src: iconUrl, sizes: '512x512', type: iconType }
+    ]
+  };
+  const blob = new Blob([JSON.stringify(manifest)], { type: 'application/json' });
+  const link = document.querySelector('link[rel="manifest"]');
+  if (link) {
+    if (link._blobUrl) URL.revokeObjectURL(link._blobUrl);
+    link._blobUrl = URL.createObjectURL(blob);
+    link.href = link._blobUrl;
+  }
+}
+
 async function loadYaml() {
   try {
     const response = await fetch(dataUrl);
     const raw = await response.text();
+    const parsed = jsyaml.load(raw);
+    applyAppConfig(parsed);
     events = parseYaml(raw).filter(isCurrentOrFuture);
     restoreSelections();
     deckEvents = events.filter(e => !selectedEvents.has(e.id));

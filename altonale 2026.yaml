@@ -6,6 +6,9 @@ Veranstaltung:
   zeitraum: 12.06.2026 - 21.06.2026
   ort: Hamburg-Altona
   festivalzentrum: Platz der Republik
+  icon: icon.svg
+  theme_color: '#340f52'
+  background_color: '#100718'
   veranstalter: altonale GmbH
   kontakt:
     adresse: Max-Brauer-Allee 16, 22765 Hamburg
