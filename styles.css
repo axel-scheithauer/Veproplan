@@ -31,15 +31,84 @@ body {
 }
 
 .app-header {
+  display: flex;
+  align-items: center;
   padding: 0.25rem 0;
-  text-align: center;
+  position: relative;
 }
 
 .app-header h1 {
+  flex: 1;
   margin: 0;
+  text-align: center;
   font-size: clamp(0.95rem, 3vw, 1.2rem);
   font-weight: 600;
   opacity: 0.7;
+}
+
+.header-spacer {
+  width: 2rem;
+  flex-shrink: 0;
+}
+
+.header-actions {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.settings-btn {
+  background: none;
+  border: none;
+  color: #f3e6ff;
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 0.1rem 0.25rem;
+  opacity: 0.6;
+  line-height: 1;
+}
+
+.settings-btn:hover {
+  opacity: 1;
+}
+
+.settings-menu {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  background: rgba(18, 4, 26, 0.98);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 0.75rem;
+  padding: 0.4rem;
+  z-index: 300;
+  min-width: 13rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+
+.settings-menu.hidden {
+  display: none;
+}
+
+.settings-menu button {
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  color: #f3e6ff;
+  padding: 0.6rem 0.8rem;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.settings-menu button:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+.settings-menu button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
 }
 
 .tabs {

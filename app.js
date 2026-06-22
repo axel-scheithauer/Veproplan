@@ -5,6 +5,8 @@ const screenTitle = document.getElementById('screen-title');
 const discoverTab = document.getElementById('tab-discover');
 const interestingTab = document.getElementById('tab-interesting');
 const clearSelection = document.getElementById('clear-selection');
+const settingsBtn = document.getElementById('settings-btn');
+const settingsMenu = document.getElementById('settings-menu');
 const cardModal = document.getElementById('card-modal');
 
 let events = [];
@@ -578,8 +580,17 @@ function bindControls() {
     buildCards();
   });
 
+  if (settingsBtn && settingsMenu) {
+    settingsBtn.addEventListener('click', e => {
+      e.stopPropagation();
+      settingsMenu.classList.toggle('hidden');
+    });
+    document.addEventListener('click', () => settingsMenu.classList.add('hidden'));
+  }
+
   if (clearSelection) {
     clearSelection.addEventListener('click', () => {
+      if (settingsMenu) settingsMenu.classList.add('hidden');
       selectedEvents.clear();
       clearSelection.disabled = true;
       saveSelections();
