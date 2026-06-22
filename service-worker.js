@@ -1,4 +1,4 @@
-const CACHE_NAME = 'veproplan-cache-v2';
+const CACHE_NAME = 'veproplan-cache-v3';
 const ASSETS = [
   './',
   './index.html',
