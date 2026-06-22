@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>altonale Programm PWA</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="theme-color" content="#340f52" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="app-header">
+      <h1 id="screen-title">Lade Programm…</h1>
+    </header>
+
+    <section class="info-panel hidden" id="hint-panel">
+      <p>Swipe <strong>rechts</strong> für <strong>Interessant</strong>, <strong>links</strong> für <strong>Verzichtbar</strong>, nach oben für <strong>Highlight</strong> und nach unten zum Zurücksetzen.</p>
+    </section>
+
+    <section id="card-container" class="card-stack">
+      <div class="loading">Lade Programm...</div>
+    </section>
+
+    <div id="card-modal" class="card-modal"></div>
+
+    <nav class="tabs">
+      <button id="tab-discover" class="tab active">Entdecken</button>
+      <button id="tab-interesting" class="tab">Interessant</button>
+    </nav>
+  </main>
+  <script src="js-yaml.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

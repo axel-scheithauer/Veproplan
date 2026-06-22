@@ -1,0 +1,441 @@
+# perspectives.festival 2026 - Programm
+Veranstaltung:
+  name: perspectives.
+  jahr: 2026
+  datum: '2026-06-26'
+  ort: Hamburg
+  veranstalter: oose eG
+  quelle: https://www.perspectives-festival.de/de/agenda
+programm:
+- zeitpunkt: 2026-06-26T09:00
+  ort: 4. OG, HoheLoft
+  titel: Begrüßung & Frühstück
+  format: Auftakt
+  dauer: 60 Min.
+- zeitpunkt: 2026-06-26T10:00
+  ort: 3. OG, EppenDock
+  titel: Gelassen statt getriggert – Selbstregulation im Berufsalltag
+  sprecher:
+  - Tina Busch
+  dauer: 55 Min.
+  beschreibung: >
+    In unserem Berufsalltag werden wir täglich mit Situationen konfrontiert, die uns
+    emotional herausfordern. Diese Session bietet praktische Werkzeuge, um persönliche
+    Trigger zu erkennen und wirksame Selbstregulationstechniken zu erlernen. Die Teilnehmenden
+    lernen, ihre emotionalen Reaktionen besser zu verstehen und in schwierigen Situationen
+    gelassener zu reagieren, um damit nicht nur die berufliche Leistungsfähigkeit
+    zu steigern, sondern auch das persönliche Wohlbefinden nachhaltig zu verbessern.
+    In unserem Berufsalltag werden wir täglich mit Situationen konfrontiert, die uns
+    emotional herausfordern. Diese Session bietet praktische Werkzeuge, um persönliche
+    Trigger zu erkennen und wirksame Selbstregulationstechniken zu erlernen. Die Teilnehmenden
+    lernen, ihre emotionalen Reaktionen besser zu verstehen und in schwierigen Situationen
+    gelassener zu reagieren, um damit nicht nur die berufliche Leistungsfähigkeit
+    zu steigern, sondern auch das persönliche Wohlbefinden nachhaltig zu verbessern.
+    In unserem Berufsalltag werden wir täglich mit Situationen konfrontiert, die uns
+    emotional herausfordern. Diese Session bietet praktische Werkzeuge, um persönliche
+    Trigger zu erkennen und wirksame Selbstregulationstechniken zu erlernen. Die Teilnehmenden
+    lernen, ihre emotionalen Reaktionen besser zu verstehen und in schwierigen Situationen
+    gelassener zu reagieren, um damit nicht nur die berufliche Leistungsfähigkeit
+    zu steigern, sondern auch das persönliche Wohlbefinden nachhaltig zu verbessern.In unserem Berufsalltag werden wir täglich mit Situationen konfrontiert, die uns
+    emotional herausfordern. Diese Session bietet praktische Werkzeuge, um persönliche
+    Trigger zu erkennen und wirksame Selbstregulationstechniken zu erlernen. Die Teilnehmenden
+    lernen, ihre emotionalen Reaktionen besser zu verstehen und in schwierigen Situationen
+    gelassener zu reagieren, um damit nicht nur die berufliche Leistungsfähigkeit
+    zu steigern, sondern auch das persönliche Wohlbefinden nachhaltig zu verbessern.
+- zeitpunkt: 2026-06-26T10:00
+  ort: 3. OG, PauliPerle
+  titel: 'Künstliche Intelligenz vs. Kollektive Intelligenz: Technologie und Governance
+    in kooperativen Ökosystemen'
+  sprecher:
+  - Ela Kagel
+  dauer: 55 Min.
+  beschreibung: >
+    Schon der Begriff "Künstliche Intelligenz" ist irreführend: Was als artifiziell
+    gilt, ist in Wahrheit kollektive menschliche Arbeit, die auf den Daten und Erfahrungen
+    von Millionen Menschen basiert, deren Beiträge in anonymen Datennetzen verschwinden.
+    Der Vortrag lädt dazu ein, KI nicht als externes Werkzeug zu verstehen, sondern
+    als etwas, das gemeinsam gestaltet und gesteuert werden kann. Ausgehend vom Konzept
+    der Cooperative Intelligence wird gezeigt, wie genossenschaftliche und gemeinwohlorientierte
+    Organisationen eigene digitale Infrastruktur aufbauen können – als gemeinschaftlich
+    getragene Wissensräume und als Grundlage für neue Formen von Governance und Wertschöpfung,
+    hin zu dem, was Trebor Scholz als "Solidarity Stack" bezeichnet.
+- zeitpunkt: 2026-06-26T10:00
+  ort: 2. OG, HafenNest
+  titel: 'DDD: Strategic Design & Context Mapping'
+  sprecher:
+  - Dr. Stefan Rieger
+  dauer: 90 Min.
+  beschreibung: >
+    Verteilte Systeme brauchen klare fachliche Grenzen, sonst wachsen Abhängigkeiten
+    und Missverständnisse. Domain-driven Design hilft, die Domäne in Bounded Contexts
+    zu schneiden; im "Strategic Design" werden Beziehungen und Schnittstellen festgelegt,
+    das Resultat ist eine Context Map. Anhand eines Fallbeispiels wird das Strategic
+    Design praktisch erarbeitet, eine Context Map erstellt und verschiedene Designoptionen
+    diskutiert.
+- zeitpunkt: 2026-06-26T10:00
+  ort: 1. OG, SchanzenTraum
+  titel: Wie verändert Armut den Blick auf Arbeit, Bildung und Zugehörigkeit?
+  sprecher:
+  - Dominik Bloh
+  dauer: 55 Min.
+  beschreibung: >
+    Dominik Bloh spricht über sein Leben zwischen Obdachlosigkeit, gesellschaftlichem
+    Aufstieg und öffentlicher Sichtbarkeit – und darüber, warum Würde, Wohnraum und
+    echte Teilhabe zentrale Zukunftsfragen unserer Gesellschaft sind. Mit persönlichen
+    Geschichten, klaren Beobachtungen und einem Blick auf soziale Innovation zeigt
+    er, weshalb die Frage nach der Zukunft der Arbeit niemals getrennt von der Frage
+    nach der Zukunft des Zusammenlebens gedacht werden kann.
+- zeitpunkt: 2026-06-26T10:00
+  ort: 1. OG, WilhelmsBude
+  titel: Bevor die Seiten sich verhärten - Perspektivwechsel als Konfliktprävention
+  sprecher:
+  - Sarah Schuh
+  - Kira Tschierschke
+  dauer: 90 Min.
+  beschreibung: >
+    Konflikte entstehen oft dort, wo wir die andere Person einfach nicht verstehen.
+    Wie navigiert man eine Situation, in der unterschiedliche Perspektiven aufeinanderprallen?
+    In diesem Workshop lernen die Teilnehmenden, diesen kritischen Moment zu nutzen,
+    mit konkreten Techniken sich in andere Sichtweisen hineinzuversetzen und Verständnis
+    zu entwickeln – um Konflikte proaktiv zu entschärfen, statt sie später zu klären.
+- zeitpunkt: 2026-06-26T11:05
+  ort: 3. OG, EppenDock
+  titel: 'Das Ende von Software: Ein Blick in die Glaskugel'
+  sprecher:
+  - Kai Lehmann
+  dauer: 50 Min.
+  beschreibung: >
+    Ein Gedankenexperiment: ein Blick in die Glaskugel einer Welt, in der Software
+    als Produkt, Projekt und Tätigkeitsbeschreibung langsam verschwindet – nicht,
+    weil Software weg ist, sondern weil sie selbstverständlich geworden ist. Beleuchtet
+    werden die Folgen für Arbeit und Wertschöpfung: Was passiert mit SaaS-Geschäftsmodellen,
+    wenn Features keine Differenzierung mehr bieten? Womit verbringen Entwickler,
+    Architekten und IT-Berater ihre Zeit, wenn Implementierung trivial wird? Und wo
+    entsteht ökonomischer Wert, wenn Code keinen Preis mehr hat? Ohne Zukunftshype
+    zeigt der Vortrag, wie sich Tätigkeiten leise verschieben – von Software bauen
+    zum Bewerten, von Implementieren zum Einordnen.
+- zeitpunkt: 2026-06-26T11:05
+  ort: 3. OG, PauliPerle
+  titel: Small Acts. Shared Value.
+  sprecher:
+  - Sven-Ole Thormählen
+  dauer: 50 Min.
+  beschreibung: >
+    Große Ambitionen brauchen nicht immer große Programme – manchmal vor allem eine
+    neue Perspektive und mutige, bewusst gesetzte Handlungen im Alltag. In diesem
+    interaktiven Format wird mit dem Konzept von Creating Shared Value und mit "Small
+    Acts" experimentiert: den kleinsten denkbaren Ausprägungen großer Ambitionen,
+    die wirtschaftlichen Erfolg und gesellschaftlichen Mehrwert verbinden. Gemeinsam
+    werden konkrete Ansatzpunkte zwischen strategischer Ausrichtung und operativer
+    Praxis identifiziert, mit dem Ziel, Win-Win-Win konkret umsetzbar zu machen.
+- zeitpunkt: 2026-06-26T11:05
+  ort: 1. OG, SchanzenTraum
+  titel: 'KI-Halluzinationen: wahrscheinlich richtig, leider falsch'
+  sprecher:
+  - Helene Renn
+  dauer: 50 Min.
+  beschreibung: >
+    Halluzinationen in KI-Systemen wie ChatGPT wirken oft überzeugend, sind aber inhaltlich
+    schlicht falsch. In diesem interaktiven Vortrag wird erklärt, warum generative
+    KI halluziniert, wie man bewusster mit ihren Antworten umgeht und welche Strategien
+    helfen, Halluzinationen aufzudecken und zu vermeiden. KI-Tools wie ChatGPT können
+    direkt selbst ausprobiert werden. Gemeinsam wird ein kritisches Gespür für die
+    Fallstricke generativer Modelle und mehr Sicherheit im Umgang mit scheinbar klarem
+    KI-Wissen entwickelt.
+- zeitpunkt: 2026-06-26T12:05
+  ort: 3. OG, EppenDock
+  titel: Taskforce trifft Feuerwehr
+  sprecher:
+  - Thomas Betscher
+  - Sebastian Dengler
+  dauer: 55 Min.
+  beschreibung: >
+    Task-Force-Projekte gehören zum Alltag vieler Embedded-Teams – besonders bei Zeitdruck,
+    Komplexität und eskalierenden Kundenanforderungen. Doch oft verlaufen diese Projekte
+    chaotisch, unstrukturiert und ineffizient. Der Vortrag wirft einen ungewöhnlichen
+    Blick auf das Thema: Was lässt sich von professionellen Einsatzkräften im Krisenmanagement
+    lernen – von Feuerwehr, Rettungsdiensten oder Katastrophenschutz? Vorgestellt
+    werden zentrale Prinzipien, die im Kriseneinsatz funktionieren – klare Führungsstrukturen,
+    strukturierte Lageeinschätzungen, bewährte Standardverfahren und disziplinierte
+    Kommunikation – und wie diese auf Task-Force-Projekte übertragbar sind. Anhand
+    konkreter Projektbeispiele entsteht ein "Task-Force-Toolkit" für Embedded-Teams.
+- zeitpunkt: 2026-06-26T12:05
+  ort: 3. OG, PauliPerle
+  titel: Workers' Buyout und Finanzierung
+  sprecher:
+  - Claudia Henke
+  - Tim Weilkiens
+  dauer: 55 Min.
+  beschreibung: >
+    Claudia Henke von Platform Coops eG erklärt das Modell Workers' Buyout, die Unternehmensnachfolge
+    durch die Belegschaft, und spricht mit Tim Weilkiens, Vorstand der oose eG, darüber,
+    wie genau die Mitarbeitenden das Unternehmen abgekauft haben und welche Überlegungen
+    dahinter standen. Zeit für Fragen aus dem Publikum ist eingeplant.
+- zeitpunkt: 2026-06-26T12:05
+  ort: 1. OG, WilhelmsBude
+  titel: Manifest wider die algorithmische Herrschaft
+  sprecher:
+  - Martina Kumpies
+  dauer: 55 Min.
+  beschreibung: >
+    Künstliche Intelligenz verändert nicht nur Arbeit und Technologie, sondern verschiebt
+    Macht. Während Konsumenten Daten liefern, Arbeiter Systeme trainieren, Unternehmen
+    Effizienz maximieren und Staaten Kontrolle ausbauen, entsteht mit Plattformen
+    eine neue digitale Herrschaftsklasse. Inspiriert von der marxistischen Klassenanalyse
+    verbindet diese Session Manifest, Machtverhältnisse und KI-Fails zu der Frage:
+    Wem gehört morgen die Macht?
+- zeitpunkt: 2026-06-26T12:05
+  ort: 1. OG, SchanzenTraum
+  titel: Upgrading Humans — Was dein Nervensystem gerade dringend braucht
+  sprecher:
+  - Nina Zolezzi
+  dauer: 55 Min.
+  beschreibung: >
+    Viele typische Performance-Probleme sind heute keine Kompetenzprobleme, sondern
+    biologische Zustände: Wenn Nervensysteme überlastet sind, werden selbst hochintelligente
+    Teams unklar, gereizt, reaktiv oder innerlich abwesend. Nina Zolezzi verbindet
+    Psychologie und Neurowissenschaft mit der Realität von Führung und Zusammenarbeit
+    – von der Neurobiologie von Stress und Leistungsfähigkeit über Selbstregulation
+    und mentale Fitness bis zu psychologischer Sicherheit, Teamdynamik und kollektiver
+    Intelligenz. Der Talk richtet sich an Organisationen, die weniger "Push" brauchen
+    und mehr Human-System-Design.
+- zeitpunkt: 2026-06-26T12:05
+  ort: 2. OG, HafenNest
+  titel: Was hat Jean-Claude van Damme mit KI zu tun?
+  sprecher:
+  - Hamza Bassam
+  dauer: 55 Min.
+  beschreibung: >
+    Jean-Claude Van Damme konnte spalten, kicken und beeindrucken. Claude AI kann
+    schreiben, coden, planen und denken – und macht das Ganze ohne Muskelkater. Der
+    Vortrag zeigt, was Claude wirklich draufhat: von der einfachen Chat-Konversation
+    über strukturierte Projekte und Skills bis hin zu Claude Code und Cowork für den
+    echten Arbeitsalltag. Keine Theorie-Trockenübungen, sondern Live-Demos, echte
+    Anwendungsfälle und die ehrliche Antwort auf die Frage: Wann hilft KI wirklich
+    – und wann tritt sie daneben?
+- zeitpunkt: 2026-06-26T12:05
+  ort: 3. OG, AlsterEck
+  titel: Mein Kung Fu dein Kung Fu – Professionell ertrinken in den drei Flüssen des
+    DevOps
+  sprecher:
+  - Georg Haupt
+  dauer: 55 Min.
+  beschreibung: >
+    DevOps sollte uns schneller, besser und menschlicher machen. Stattdessen sitzt
+    man nachts um 3:47 Uhr in Incident-Calls und diskutiert über Dateinamen wie "HOTFIX_FINAL_v7_REAL_LAST.zip".
+    In dieser humorvollen wie schonungslos ehrlichen Keynote geht es durch die drei
+    Flüsse des DevOps: Flow, Feedback und kontinuierliches Lernen – nicht wie in Management-Präsentationen,
+    sondern wie sie in vielen Unternehmen tatsächlich gelebt werden. Zwischen Alert-Fatigue,
+    Tool-Hopping und Kubernetes-Mystik wird gezeigt, warum Kultur wichtiger ist als
+    Tools und Haltung mehr zählt als Zertifikate.
+- zeitpunkt: 2026-06-26T13:00
+  ort: 4. OG, HoheLoft
+  titel: Mittagspause
+  format: Pause
+  dauer: 60 Min.
+- zeitpunkt: 2026-06-26T14:05
+  ort: 3. OG, EppenDock
+  titel: Design Thinking
+  sprecher:
+  - Moritz Avenatius
+  dauer: 90 Min.
+  beschreibung: >
+    Wie lösen Teams komplexe Probleme kreativ und nutzer:innenzentriert? In dieser
+    interaktiven Session wird erlebt, wie Design Thinking interdisziplinäre Zusammenarbeit
+    stärkt und Innovation beschleunigt. Zwei Stunden, echte Praxisfälle, direktes
+    Ausprobieren – für alle, die Lust auf neue Perspektiven und schnelleres, fokussierteres
+    Arbeiten haben.
+- zeitpunkt: 2026-06-26T14:05
+  ort: 3. OG, PauliPerle
+  titel: Künstliche Intelligenz trifft gelebte Erfahrung. Wie Führungskräfte beides
+    verbinden können – und müssen.
+  sprecher:
+  - Sandra Herz
+  dauer: 50 Min.
+  beschreibung: >
+    Wer im KI-Zeitalter Teams und Organisationen führt, hat es nicht leicht: täglich
+    neue Informationen zu Technologie und Wirkung, Entscheidungen unter Unsicherheit,
+    keine Learnings aus vergleichbaren Transformationen, dazu ein gefühlter Angriff
+    auf den eigenen Karriereweg und Status. Es gibt jedoch wirkungsvolle Hebel, um
+    aus diesem Dilemma herauszukommen – alle mit Selbsterkenntnis und offener Kommunikation
+    verbunden, manche auch mit KI-Unterstützung. Gemeinsam wird erarbeitet, wie diese
+    Hebel am besten umgelegt werden können.
+- zeitpunkt: 2026-06-26T14:05
+  ort: 2. OG, HafenNest
+  titel: Effektive Führung im Systems Engineering
+  sprecher:
+  - Maren Wischer
+  - Dr. David Endler
+  dauer: 50 Min.
+  beschreibung: >
+    Effektive Führung im Systems Engineering bedeutet mehr als formale Autorität –
+    besonders ohne disziplinarische Führungsrolle. Die Session zeigt, wie man auch
+    ohne Weisungsbefugnis wirksam Einfluss nehmen und Orientierung geben kann: durch
+    klare Rollenklärung, zielgerichtete Kommunikation und fundierte Entscheidungen.
+    Vermittelt wird auch, wie wichtig Selbstführung ist, um in komplexen und dynamischen
+    Projektumfeldern handlungsfähig zu bleiben. Die zentrale Erkenntnis: Erfolgreiche
+    Führung beginnt mit der eigenen inneren Haltung.
+- zeitpunkt: 2026-06-26T14:05
+  ort: 1. OG, SchanzenTraum
+  titel: KI in Konflikten konstruktiv nutzen
+  sprecher:
+  - Helene Renn
+  - Sarah Schuh
+  dauer: 50 Min.
+  beschreibung: >
+    Der Vortrag zeigt, wie Künstliche Intelligenz als Sparringspartner in Konflikten
+    eingesetzt werden kann – und wo ihre Chancen und Grenzen liegen. Ausgangspunkt
+    ist ein Blick darauf, wie Konflikte entstehen und warum die Wahrnehmung dabei
+    oft verzerrt ist. Darauf aufbauend wird gezeigt, wie KI helfen kann, Perspektiven
+    zu erweitern, Gedanken zu strukturieren und Gespräche lösungsorientierter zu führen
+    – während kritisch typische Risiken wie Sycophancy, Framing-Effekte oder kontextabhängige
+    Fehlinterpretationen beleuchtet werden. Anhand konkreter Praxisbeispiele und Leitfragen
+    wird gezeigt, wie KI reflektiert als Unterstützung in Konfliktsituationen genutzt
+    werden kann.
+- zeitpunkt: 2026-06-26T14:05
+  ort: 1. OG, WilhelmsBude
+  titel: Charisma und Chaos
+  sprecher:
+  - Kira Hess
+  dauer: 90 Min.
+  beschreibung: >
+    Die Welt wird schneller, lauter, widersprüchlicher – und mittendrin: wir Menschen,
+    mit Körper, Haltung und Wirkung. In diesem 90-minütigen Workshop des Scharlatan
+    Theaters für Veränderung wird ausprobiert, gespielt und erlebt. Mit einfachen
+    Theaterübungen wird entdeckt, wie Präsenz entsteht: durch Klarheit im Körper,
+    Beweglichkeit im Kopf und Mut im Moment. Wie man ruhig bleibt, wenn es hektisch
+    wird, entschieden auftritt ohne starr zu werden, und Resonanz erzeugt statt nur
+    zu reagieren. Ein aktiver Workshop für alle, die in chaotischen Zeiten wirksam
+    bleiben wollen.
+- zeitpunkt: 2026-06-26T14:05
+  ort: 3. OG, AlsterEck
+  titel: Auftragsklärung zwischen Zielraum und Spielraum
+  sprecher:
+  - Claudia Plöchinger
+  dauer: 60 Min.
+  beschreibung: >
+    Diese Session beleuchtet die Kunst der Auftragsklärung und wie sie für wirksame
+    Führung und Zusammenarbeit gestaltet werden kann: wie man vom Anliegen zum Auftrag
+    kommt und wieviel Klarheit in der Unklarheit steckt, sowie wie Delegation und
+    Kommunikation angelegt werden können, um Ziele zu formulieren und Gestaltungsspielräume
+    bestmöglich zu nutzen. Ob als Auftragnehmer*in oder Auftraggeber*in – theoretische
+    und interaktive Impulse aus der systemisch-agilen Praxis laden zum Austausch ein.
+- zeitpunkt: 2026-06-26T15:05
+  ort: 3. OG, PauliPerle
+  titel: AI Allies – How to strategize AI without a strategy? Pragmatische Wege zur
+    Operationalisierung von KI in der Beratung
+  sprecher:
+  - Franziska Jon
+  dauer: 50 Min.
+  beschreibung: >
+    Viele Unternehmen sprechen über "die" KI-Strategie – im Beratungsalltag zeigt
+    sich jedoch: Wert entsteht nicht auf dem Papier, sondern im Tun. Der Vortrag zeigt,
+    wie KI-Nutzung in einer Beratung bottom-up aus dem Tagesgeschäft heraus operationalisiert
+    werden kann, ohne ein perfektes Strategiedokument abzuwarten. Im Fokus stehen
+    die "AI Allies" – Mitarbeitende, die in kleinen Pilotprojekten experimentieren
+    und so schrittweise Vertrauen in konkrete KI-Anwendungen aufbauen. Ein weiterer
+    Schwerpunkt liegt auf der Rolle von Führung und wie ein echtes Buy-in entsteht.
+- zeitpunkt: 2026-06-26T15:05
+  ort: 2. OG, HafenNest
+  titel: Wenn KI deine Businessplanung zerfetzt
+  sprecher:
+  - Jan Ulrich Hasecke
+  - Michael Hierweck
+  dauer: 50 Min.
+  beschreibung: >
+    Der Kampf globaler Investoren um die Beherrschung zukünftiger KI-Märkte hat die
+    Preise für Hardware in astronomische Höhen getrieben und Lieferketten zerrissen.
+    Die sogenannte "Speicherkrise" stellt kleine und mittelständische IT-Unternehmen,
+    die regelmäßig Hardware beschaffen müssen, vor große Herausforderungen. Bei der
+    Hostsharing eG hat der KI-Rausch die Businessplanung zerfetzt, da Genossenschaften
+    anders kalkulieren als private Unternehmen mit Renditeerwartungen. Wenn sich nur
+    noch Hyperscaler die Hardware-Preise leisten können, sind auch die europäischen
+    Bemühungen um digitale Souveränität in Gefahr – genossenschaftlich finanzierte
+    Infrastruktur kann hier neue Chancen eröffnen.
+- zeitpunkt: 2026-06-26T15:05
+  ort: 3. OG, AlsterEck
+  titel: Gamification in der Softwarewelt
+  sprecher:
+  - Christian Kram
+  dauer: 60 Min.
+  beschreibung: >
+    Eine interaktive Erkundung der Welt der Gamification im Stil eines Open Space
+    mit Spieltischen und Zeitslots. Vorbereitet sind drei Spiele: Agile Test Jenga
+    (spielerisch die Vorteile des agilen Testens kennenlernen), Would Heu-Risk it?
+    (ein Kartenspiel, das Storytelling und Risiko verbindet) und Riskstorming 2.0
+    (das bekannte Riskstorming Format mit neuem Deck). Eigene Spiele können mitgebracht
+    werden. Zeitplan: 15:05 Willkommen, 15:10 Planung, 15:20 erste Spielrunde, 15:40
+    zweite Spielrunde, 16:00 Abschluss. Moderation: Christian Kram.
+- zeitpunkt: 2026-06-26T15:05
+  ort: 1. OG, SchanzenTraum
+  titel: Green IT kostet nur?
+  sprecher:
+  - Tom Lehmann
+  dauer: 50 Min.
+  beschreibung: >
+    Green IT wird oft mit Verzicht und Mehrkosten gleichgesetzt – zu kurz gedacht.
+    Viele Maßnahmen senken nicht nur den CO₂-Fußabdruck, sondern auch Betriebskosten,
+    von effizienterer Infrastruktur bis zu smarter Nutzung. Die Session vermittelt
+    die wichtigsten Prinzipien der Green IT und konkrete Hebel für den Einstieg, plus
+    Argumente, mit denen sich Nachhaltigkeit intern auch wirtschaftlich stark machen
+    lässt.
+- zeitpunkt: 2026-06-26T16:00
+  ort: UG, BillStage
+  titel: ArtNight – „Ich kann nicht malen.“ Perfekt. 🎨
+  sprecher:
+  - Sabrina Riedel
+  dauer: 120 Min.
+  beschreibung: >
+    ArtNight ist für jede:n – egal ob man schon einmal gemalt hat oder noch nie einen
+    Pinsel in der Hand hatte. Es geht nicht um Talent, Kunststudium oder das perfekte
+    Ergebnis, sondern um Spaß, Kreativität und den Mut, einfach loszulegen. Gemeinsam
+    mit der Künstlerin Sabrina Riedel verwandelt man eine leere Leinwand Schritt für
+    Schritt in das eigene Kunstwerk, ganz entspannt, ohne Druck und mit Tipps und
+    Unterstützung.
+- zeitpunkt: 2026-06-26T16:05
+  ort: 1. OG, SchanzenTraum
+  titel: Nostradamus-Club
+  sprecher:
+  - Marko Vetter
+  - Georg Haupt
+  dauer: 50 Min.
+  beschreibung: >
+    Im Nostradamus Club wird gemeinsam ein Blick in die Zukunft gewagt: eine interaktive
+    Session, in der alle Teilnehmenden ihre mutigen, klugen oder völlig verrückten
+    Prognosen für 2027 teilen können – rund um Technologie, Zusammenarbeit, KI, Gesellschaft
+    und alles dazwischen. Der Clou: Auf der perspectives 2027 wird gemeinsam geprüft,
+    wie nah man an der Realität lag. Eine Session zwischen Zukunftsvision, Gedankenexperiment
+    und kollektiver Glaskugel.
+- zeitpunkt: 2026-06-26T10:00
+  ort: UG, BillStage
+  titel: 'UNHOME: Eine Virtual-Reality-Experience über das Leben auf der Straße'
+  sprecher:
+  - Nicolas Staake
+  dauer: mind. 20 Min.
+  beschreibung: >
+    UNHOME eröffnet Räume, um über Obdachlosigkeit und gesellschaftliche Teilhabe
+    ins Gespräch zu kommen – durch Sensibilisierung für das Thema, das Aufzeigen fremder
+    Lebensrealitäten und einen Perspektivwechsel als Impulsgeber für das eigene Handeln.
+    Die Experience läuft auf der mobilen VR-Brille Quest, dauert mindestens 20 Minuten
+    und findet im Sitzen statt; eine Event-Lösung mit Zelten sorgt dafür, dass der
+    Perspektivwechsel schon vor der Experience beginnt.
+- zeitpunkt: 2026-06-26T16:05
+  ort: 4. OG, HoheLoft
+  titel: Get-together
+  format: Abschluss
+  dauer: 235 Min.
+- zeitpunkt: '2026-06-26'
+  ort: ''
+  titel: Resilienz im Arbeitsalltag
+  sprecher:
+  - Sarah Schuh
+  hinweis: Zeit folgt
+  beschreibung: >
+    Belastung im Arbeitsalltag entsteht selten plötzlich, sondern entwickelt sich
+    meist schrittweise. Resilienz bedeutet deshalb nicht, mehr auszuhalten, sondern
+    früher wahrzunehmen, wann die eigenen Grenzen erreicht sind, und bewusst darauf
+    reagieren zu können. In diesem interaktiven Format wird ein Verständnis davon
+    entwickelt, was Resilienz im Arbeitskontext wirklich bedeutet und wo ihre Grenzen
+    liegen, verbunden mit Reflexion eigener Erfahrungen mit Belastung und einem praxisnahen
+    Modell für den Alltag. Resilienz heißt nicht, mehr auszuhalten, sondern zu merken:
+    Jetzt wird es zu viel – und ich kann bewusst darauf reagieren.

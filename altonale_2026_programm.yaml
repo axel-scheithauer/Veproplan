@@ -1,0 +1,1569 @@
+# altonale 2026 - Festivalprogramm
+Veranstaltung:
+  name: altonale
+  jahr: 2026
+  motto: Vor aller Augen
+  zeitraum: 12.06.2026 - 21.06.2026
+  ort: Hamburg-Altona
+  festivalzentrum: Platz der Republik
+  veranstalter: altonale GmbH
+  kontakt:
+    adresse: Max-Brauer-Allee 16, 22765 Hamburg
+    telefon: +49 (0)40 - 39 80 69 70
+    email: info@altonale.de
+  highlights:
+  - name: STAMP Festival
+    beschreibung: Internationales Festival der Straßenkünste (Street Arts Melting
+      Pot)
+    zeitraum: 19.06.2026 - 21.06.2026
+  - name: altonale Flohmarkt
+    ort: Platz der Republik
+  - name: Kunstmarkt
+    ort: Christianswiese
+    zeitraum: 20.06.2026 - 21.06.2026
+  - name: Infomeile Buntes Altona
+    zeitraum: 13.06.2026 - 14.06.2026
+programm:
+- zeitpunkt: 2026-06-12T10:00
+  ort: Altona
+  titel: Bücherblühen
+  kategorien:
+  - literatur altonale
+  - altonale 24/7
+- zeitpunkt: 2026-06-12T10:00
+  ort: Altona
+  titel: Kunst im Schaufenster 2026
+  kategorien:
+  - kunst altonale
+  - altonale 24/7
+- zeitpunkt: 2026-06-12T10:00
+  ort: Christianswiese
+  titel: Kulturfutter is back – Rette, schnibbel und koche mit uns …
+  kategorien:
+  - altonale visionair
+  - altonale kulturfutter
+- zeitpunkt: 2026-06-12T10:00
+  ort: Altona
+  titel: Ausstellungen & Installationen
+  kategorien:
+  - altonale 24/7
+  - kunst altonale
+  - literatur altonale
+- zeitpunkt: 2026-06-12T11:00
+  ort: Mercado
+  titel: Zwischen Wahrnehmung und Wirklichkeit
+  kategorien:
+  - kunst altonale
+  - altonale 24/7
+- zeitpunkt: 2026-06-12T15:00
+  ort: Rathaus Altona
+  titel: Der freie Fall im Augenblick
+  kategorien:
+  - kunst altonale
+  - altonale 24/7
+- zeitpunkt: 2026-06-12T16:00
+  ort: Osteopathie in Ottensen – Inga Gaertner
+  titel: Ausstellung von Geburtsfotografien
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-12T17:00
+  ort: L'Apéro NAT
+  titel: Trialog – Saori Hesegama, Lars Hammer und David Poveda
+  kategorien:
+  - kunst altonale
+  - altonale 24/7
+- zeitpunkt: 2026-06-12T18:00
+  ort: Urbanshit Gallery
+  titel: GOLIF – Urban Art Ausstellung
+  kategorien:
+  - kunst altonale
+  - altonale 24/7
+- zeitpunkt: 2026-06-12T19:00
+  ort: Hamburger Sparkasse – Filiale
+  titel: HÅNNA
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-12T19:00
+  ort: Platz der Republik
+  titel: HNRX (AT)
+  kategorien:
+  - STAMP Urban Art
+- zeitpunkt: 2026-06-12T19:30
+  ort: Platz der Republik
+  titel: FINNA & Friends
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-12T21:00
+  ort: Hafenbahnhof
+  titel: Dance This Mess Around @Hafenbahnhof
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-12T21:30
+  ort: Platz der Republik
+  titel: DJ Schmeisser
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-13T10:00
+  ort: Altona
+  titel: Ausstellungen & Installationen
+  kategorien:
+  - altonale 24/7
+  - kunst altonale
+- zeitpunkt: 2026-06-13T10:00
+  ort: Erzbergerstraße 19
+  titel: Wildceramic.art – Tag der offenen Tür
+  kategorien:
+  - kunst altonale
+- zeitpunkt: 2026-06-13T10:00
+  ort: Christianswiese
+  titel: Kulturfutter is back – Rette, schnibbel und koche mit uns …
+  kategorien:
+  - altonale visionair
+  - altonale kulturfutter
+- zeitpunkt: 2026-06-13T11:00
+  ort: Platz der Republik
+  titel: Altonaer Solidaritätsverein
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-13T11:00
+  ort: Bahrenfelder Straße
+  titel: Fest des guten Lebens – Anwohnerfest rund um das Ribatejo
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-13T11:00
+  ort: Hohenesch 51
+  titel: Töpfern für die Ewigkeit
+  kategorien:
+  - literatur altonale
+- zeitpunkt: 2026-06-13T11:00
+  ort: Platz der Republik
+  titel: Buntes Altona
+  kategorien:
+  - Märkte
+  - junge altonale
+- zeitpunkt: 2026-06-13T11:30
+  ort: Rothestraße 62
+  titel: WELCOME to Dance, Yoga und Mantra Chants
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-13T12:00
+  ort: Platz der Republik
+  titel: Barlsheide Dance Crew
+  kategorien:
+  - junge altonale
+  - musik altonale
+- zeitpunkt: 2026-06-13T12:00
+  ort: Die Bedürfnisanstalt
+  titel: TIME OUT – Offenes Atelier Janine Seelen
+  kategorien:
+  - kunst altonale
+  - altonale 24/7
+- zeitpunkt: 2026-06-13T12:00
+  ort: Hamburg Leuchtfeuer Lotsenhaus
+  titel: Tag der offenen Tür im Hamburg Leuchtfeuer Lotsenhaus
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-13T12:00
+  ort: Moscheegemeinde Altona Ulu Camii
+  titel: Tag der offenen Moschee + Leckereien
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-13T12:45
+  ort: Platz der Republik
+  titel: Altonaer Rothekehlchen
+  kategorien:
+  - junge altonale
+  - musik altonale
+- zeitpunkt: 2026-06-13T13:00
+  ort: Christianswiese
+  titel: Parkour für eine bessere Welt
+  kategorien:
+  - junge altonale
+  - altonale kulturfutter
+  - altonale visionair
+- zeitpunkt: 2026-06-13T13:00
+  ort: Louise-Schroeder-Schule
+  titel: Mit Geigen und Trompeten – Mitmachaktion von Musica Altona e.V.
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-13T13:30
+  ort: Platz der Republik
+  titel: Tanz mit Minka
+  kategorien:
+  - junge altonale
+  - musik altonale
+- zeitpunkt: 2026-06-13T14:00
+  ort: Osteopathie in Ottensen – Inga Gaertner
+  titel: Ausstellung von Geburtsfotografien
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-13T14:15
+  ort: Platz der Republik
+  titel: Munay Hamburg
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-13T15:00
+  ort: Urbanshit Gallery
+  titel: Urban Art Tour – Street Art in Ottensen entdecken
+  kategorien:
+  - kunst altonale
+- zeitpunkt: 2026-06-13T15:00
+  ort: Stadtteilarchiv Ottensen e.V. Geschichtswerkstatt für Altona
+  titel: Wohnen im alten und neuen Altona
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-13T15:30
+  ort: Platz der Republik
+  titel: Zwei Big-Bands – eine Schule
+  kategorien:
+  - musik altonale
+  - junge altonale
+- zeitpunkt: 2026-06-13T15:30
+  ort: Rothestraße 62
+  titel: WELCOME to Dance, Yoga und Mantra Chants
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-13T16:00
+  ort: Altonaer Museum
+  titel: Hamburg, Stadt der Künstler
+  kategorien:
+  - kunst altonale
+  - altonale 24/7
+- zeitpunkt: 2026-06-13T16:00
+  ort: Altonaer Balkon
+  titel: Ein Gedichtporträt zum Mitnehmen, bitte!
+  kategorien:
+  - literatur altonale
+- zeitpunkt: 2026-06-13T16:30
+  ort: Christianswiese
+  titel: Kindertheater mit der Kita Holmbrook
+  kategorien:
+  - musik altonale
+  - junge altonale
+  - theater altonale
+- zeitpunkt: 2026-06-13T17:30
+  ort: Altonaer Balkon
+  titel: Barg
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-13T18:00
+  ort: Christianswiese
+  titel: Kion Dojo
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-13T18:30
+  ort: Platz der Republik
+  titel: Robine
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-13T19:00
+  ort: Chemnitzstraße 2
+  titel: Lesung im Nachtcafé
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-13T19:30
+  ort: Altonaer Balkon
+  titel: YAAMA
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-13T19:30
+  ort: Christianskirche
+  titel: Voix de Femmes – Cérémonies
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-13T20:00
+  ort: Christianswiese
+  titel: Heart Fetzig!
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-13T20:00
+  ort: Altona
+  titel: 'Wohnzimmerlesung: Saloon – Das ist Familiensache'
+  kategorien:
+  - literatur altonale
+- zeitpunkt: 2026-06-13T20:30
+  ort: Platz der Republik
+  titel: Agassi
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-13T21:30
+  ort: Altonaer Balkon
+  titel: DJ Jungleboy
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-13T22:00
+  ort: Platz der Republik
+  titel: Marla
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-14T10:00
+  ort: Altona
+  titel: Ausstellungen & Installationen
+  kategorien:
+  - altonale 24/7
+  - kunst altonale
+  - literatur altonale
+- zeitpunkt: 2026-06-14T10:00
+  ort: Christianswiese
+  titel: 'Kulturfutter is back – ENDSPURT: Rette, schnibbel und koche mit uns …'
+  kategorien:
+  - altonale visionair
+  - altonale kulturfutter
+- zeitpunkt: 2026-06-14T11:00
+  ort: Bahrenfelder Straße
+  titel: Fest des guten Lebens – Anwohnerfest rund um das Ribatejo
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-14T11:00
+  ort: Platz der Republik
+  titel: Altonaer Solidaritätsverein
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-14T11:00
+  ort: Platz der Republik
+  titel: Buntes Altona
+  kategorien:
+  - Märkte
+  - junge altonale
+- zeitpunkt: 2026-06-14T12:00
+  ort: Altonaer Balkon
+  titel: Clubkinder
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-14T12:00
+  ort: Moscheegemeinde Altona Ulu Camii
+  titel: Tag der offenen Moschee + Leckereien
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-14T12:00
+  ort: Jenisch Haus
+  titel: Poeten im Park
+  kategorien:
+  - literatur altonale
+- zeitpunkt: 2026-06-14T13:00
+  ort: Christianswiese
+  titel: Parkour für eine bessere Welt
+  kategorien:
+  - junge altonale
+  - altonale kulturfutter
+  - altonale visionair
+- zeitpunkt: 2026-06-14T14:00
+  ort: Ottenser Marktplatz 8
+  titel: UNHOME VR – Ein Workshop von GoBanyo
+  kategorien:
+  - altonale visionair
+  - junge altonale
+- zeitpunkt: 2026-06-14T14:00
+  ort: Platz der Republik
+  titel: Interreligiöses Friedensgebet
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-14T16:00
+  ort: Christianskirche
+  titel: 'Ambient III: Mit Alan Turing durch das Uncanny Valley'
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-14T17:00
+  ort: Platz der Republik
+  titel: conFusion Bigband
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-14T18:00
+  ort: Christianswiese
+  titel: altonale kulturfutter – Großes Festmahl für alle
+  kategorien:
+  - altonale visionair
+  - altonale kulturfutter
+- zeitpunkt: 2026-06-14T18:30
+  ort: Altonaer Balkon
+  titel: 'NEW NOISE: Moé'
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-14T19:00
+  ort: Hafenbahnhof
+  titel: VOILÀ ! Comedy Club – FRENCH STAND-UP COMEDY SHOW
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-14T19:00
+  ort: Platz der Republik
+  titel: Kaisa Rya
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-14T19:30
+  ort: Christianskirche
+  titel: Liebe! Ein Aufruf mit Daniel Schreiber
+  kategorien:
+  - literatur altonale
+- zeitpunkt: 2026-06-14T20:00
+  ort: Christianswiese
+  titel: Rancho Folclórico Tradições Portuguesas de Harburg
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-14T20:30
+  ort: Altonaer Balkon
+  titel: 'NEW NOISE: Keshia'
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-14T21:00
+  ort: Platz der Republik
+  titel: MUANH
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-15T10:00
+  ort: Altona
+  titel: Ausstellungen & Installationen
+  kategorien:
+  - altonale 24/7
+  - kunst altonale
+  - literatur altonale
+- zeitpunkt: 2026-06-15T17:00
+  ort: Christianswiese
+  titel: Silent Reading Party
+  kategorien:
+  - literatur altonale
+- zeitpunkt: 2026-06-15T17:30
+  ort: Altona
+  titel: Altona macht auf!
+  kategorien:
+  - theater altonale
+- zeitpunkt: 2026-06-15T18:00
+  ort: Mercado
+  titel: 'Kunst im Schaufenster: Rundgang 1'
+  kategorien:
+  - kunst altonale
+- zeitpunkt: 2026-06-15T19:30
+  ort: Christianskirche
+  titel: Christiansbrass
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-15T20:00
+  ort: Alfred Schnittke Akademie International
+  titel: 'altonale Filmwerkstatt: Heimatversuch'
+  kategorien:
+  - altonale specials
+  - film altonale
+- zeitpunkt: 2026-06-15T20:00
+  ort: Hafenbahnhof
+  titel: ERIKA HESSING
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-16T10:00
+  ort: Altona
+  titel: Ausstellungen & Installationen
+  kategorien:
+  - altonale 24/7
+  - kunst altonale
+  - literatur altonale
+- zeitpunkt: 2026-06-16T15:00
+  ort: Bei der Rolandsmühle 23
+  titel: Porzellan, Illustration und selber Malen
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-16T16:00
+  ort: Altonaer Balkon
+  titel: Die Barner 16
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-16T18:00
+  ort: Christianswiese
+  titel: Klub Konsonanz
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-16T18:00
+  ort: Platz der Republik
+  titel: MO'JAMS goes altonale
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-16T19:00
+  ort: Christianskirche
+  titel: Filme im Fokus
+  kategorien:
+  - altonale specials
+  - film altonale
+- zeitpunkt: 2026-06-16T19:30
+  ort: Altonaer Fischmarkt
+  titel: Literatur Ahoi!
+  kategorien:
+  - literatur altonale
+- zeitpunkt: 2026-06-16T20:00
+  ort: Christianswiese
+  titel: Sticks & Stöckl
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-16T20:00
+  ort: Hafenbahnhof
+  titel: Kaiserwetter & EatMe
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-17T10:00
+  ort: Altona
+  titel: Ausstellungen & Installationen
+  kategorien:
+  - altonale 24/7
+  - kunst altonale
+  - literatur altonale
+- zeitpunkt: 2026-06-17T10:00
+  ort: Haus 5.2
+  titel: Galerie der Villa … bei der Arbeit … offen für Nachbarn!
+  kategorien:
+  - kunst altonale
+  - altonale 24/7
+- zeitpunkt: 2026-06-17T15:00
+  ort: Bei der Rolandsmühle 23
+  titel: Porzellan, Illustration und selber Malen
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-17T15:00
+  ort: Galerie Holzhauer Hamburg
+  titel: Hortulanus – Eberhard Freudenreich
+  kategorien:
+  - kunst altonale
+  - altonale 24/7
+- zeitpunkt: 2026-06-17T17:30
+  ort: Altona
+  titel: Altona macht auf!
+  kategorien:
+  - theater altonale
+- zeitpunkt: 2026-06-17T18:00
+  ort: Paul-Nevermann-Platz
+  titel: 'Podiumsdiskussion zum Thema: „Was hält Altona zusammen?"'
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-17T18:00
+  ort: Christianswiese
+  titel: Croatia Hamburg Folklor
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-17T18:00
+  ort: Platz der Republik
+  titel: altonale swingt!
+  kategorien:
+  - musik altonale
+  - tanz altonale
+- zeitpunkt: 2026-06-17T18:30
+  ort: Altonaer Balkon
+  titel: Ayda Rastgoo
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-17T18:30
+  ort: Altonaer Museum
+  titel: AERO Transeuropäische Tagung
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-17T19:00
+  ort: Christianswiese
+  titel: Croatia Hamburg Folklor
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-17T19:00
+  ort: Christianskirche
+  titel: Filme im Fokus
+  kategorien:
+  - altonale specials
+  - film altonale
+- zeitpunkt: 2026-06-17T19:30
+  ort: Büchercafé Kapitel Drei
+  titel: Literatur, die prägt
+  kategorien:
+  - literatur altonale
+- zeitpunkt: 2026-06-17T20:00
+  ort: Christianswiese
+  titel: Hamburger Tonverein
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-17T20:00
+  ort: Hafenbahnhof
+  titel: LYMMO & SEKTMALTE
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-17T20:30
+  ort: Altonaer Balkon
+  titel: Karl die Große
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-18T10:00
+  ort: Altona
+  titel: Ausstellungen & Installationen
+  kategorien:
+  - altonale 24/7
+  - kunst altonale
+  - literatur altonale
+- zeitpunkt: 2026-06-18T15:00
+  ort: Bei der Rolandsmühle 23
+  titel: Porzellan, Illustration und selber Malen
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-18T18:00
+  ort: IKEA Hamburg-Altona
+  titel: 'Kunst im Schaufenster: Rundgang 2'
+  kategorien:
+  - kunst altonale
+- zeitpunkt: 2026-06-18T18:00
+  ort: Urbanshit Gallery
+  titel: Urban Art Tour – Street Art in Ottensen entdecken
+  kategorien:
+  - kunst altonale
+- zeitpunkt: 2026-06-18T18:30
+  ort: Altonaer Balkon
+  titel: Zoe Ardiles
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-18T18:30
+  ort: Willkommenskulturhaus
+  titel: Rattenplage – Lesung & Gespräch mit Edson Incopté
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-18T18:30
+  ort: Altonaer Museum
+  titel: AERO Transeuropäische Tagung
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-18T19:00
+  ort: Platz der Republik
+  titel: DAS altonale SING DING
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-18T19:00
+  ort: Christianswiese
+  titel: Midsommar – Das literarische Sommerfest
+  kategorien:
+  - literatur altonale
+- zeitpunkt: 2026-06-18T19:30
+  ort: Hafenbahnhof
+  titel: PASTA & SARDINE & SYD DEPALMA
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-18T19:30
+  ort: Evangelisch-reformierte Kirche in Hamburg
+  titel: Kriegsverweigerung. Poesie und Musik.
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-18T19:30
+  ort: Stadtteil- & Kulturzentrum MOTTE
+  titel: altonale Lesebühne
+  kategorien:
+  - literatur altonale
+- zeitpunkt: 2026-06-18T20:30
+  ort: Altonaer Balkon
+  titel: Hanci
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-18T20:30
+  ort: Platz der Republik
+  titel: HAVA HAVA
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-19T10:00
+  ort: Altona
+  titel: Ausstellungen & Installationen
+  kategorien:
+  - altonale 24/7
+  - kunst altonale
+  - literatur altonale
+- zeitpunkt: 2026-06-19T15:00
+  ort: Bei der Rolandsmühle 23
+  titel: Porzellan, Illustration und selber Malen
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-19T16:00
+  ort: Christianskirche
+  titel: 'Ambient III: Mit Alan Turing durch das Uncanny Valley'
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-19T16:30
+  ort: Altonaer Balkon
+  titel: schluma
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-19T18:00
+  ort: Christianswiese
+  titel: Latexos Do Norte
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-19T18:00
+  ort: Altonaer Museum
+  titel: 'Preisverleihung: Kunst im Schaufenster 2026'
+  kategorien:
+  - kunst altonale
+- zeitpunkt: 2026-06-19T18:15
+  ort: Platz der Republik
+  titel: OKE
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-19T18:30
+  ort: Altonaer Balkon
+  titel: FHEELS
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-19T19:00
+  ort: Affenfaust Galerie
+  titel: Welcome to Miami – Doppeldenk
+  kategorien:
+  - kunst altonale
+  - altonale 24/7
+- zeitpunkt: 2026-06-19T19:00
+  ort: Hamburger Sparkasse – Filiale
+  titel: frauke400
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-19T19:00
+  ort: Christianskirche
+  titel: NOA – Neues Orchester Altona
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-19T19:00
+  ort: FRISE Künstlerhaus Hamburg e. V.
+  titel: Terra Salis
+  kategorien:
+  - kunst altonale
+  - altonale 24/7
+- zeitpunkt: 2026-06-19T19:15
+  ort: Platz der Republik
+  titel: 'Cies. Humo y Polvo & Las Corpa: Obsolete Elegance (BE)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+- zeitpunkt: 2026-06-19T19:30
+  ort: Altonaer Museum
+  titel: AERO Transeuropäische Tagung
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-19T19:30
+  ort: Christianswiese
+  titel: Liefern
+  kategorien:
+  - literatur altonale
+- zeitpunkt: 2026-06-19T20:30
+  ort: Platz der Republik
+  titel: Mastika Sounds
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-19T20:30
+  ort: Altonaer Balkon
+  titel: LIZZN
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-19T21:00
+  ort: Hafenbahnhof
+  titel: HAYO FEELIN
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-19T22:00
+  ort: Altonaer Balkon
+  titel: L.A.tifa
+  kategorien:
+  - musik altonale
+- zeitpunkt: 2026-06-20T09:00
+  ort: Platz der Republik
+  titel: altonale Flohmarkt
+  kategorien:
+  - Märkte
+  beschreibung: >-
+    Jedes Jahr ein echtes Highlight der altonale: Der Flohmarkt, einer der größten
+    und beliebtesten Trödelmärkte Hamburgs. Er zieht sich vom Paul-Nevermann-Platz
+    über den Platz der Republik bis zum Altonaer Rathaus – mitten durchs Festivalgeschehen.
+    Unter dem Motto „schöner Trödeln“ erwartet Besucher*innen ein hochwertiges Angebot
+    – ganz ohne Neuwaren oder Sonderposten. Stattdessen gibt es liebevoll Ausgewähltes,
+    Kurioses und Secondhand-Schätze – und das alles in entspannter Atmosphäre unter
+    alten Platanen und im Grünen. 9–17 Uhr.
+- zeitpunkt: 2026-06-20T10:00
+  ort: Altona
+  titel: Ausstellungen & Installationen
+  kategorien:
+  - altonale 24/7
+  - kunst altonale
+  - literatur altonale
+  beschreibung: >-
+    Sammelübersicht über Ausstellungen und Installationen, die während des gesamten
+    Festivals länger zugänglich sind (u.a. Kunst im Schaufenster, Bücherblühen, TIME
+    OUT – Offenes Atelier Janine Seelen, Welcome to Miami – Doppeldenk, Zwischen Wahrnehmung
+    und Wirklichkeit, GOLIF Urban Art Ausstellung, Trialog, Der freie Fall im Augenblick,
+    Hamburg Stadt der Künstler, Hortulanus, Was vor aller Augen geschah, Fabrics of
+    Translocality).
+- zeitpunkt: 2026-06-20T11:00
+  ort: Bei der Rolandsmühle 23
+  titel: Porzellan, Illustration und selber Malen
+  kategorien:
+  - altonale specials
+  beschreibung: >-
+    Die Keramikkünstlerin Silke Decker lädt zum Sommerfest in die Werkstatt in der
+    alten Villa am Rathenaupark ein. Es gibt Einblicke in Galerie und Werkstatt, Arbeiten
+    der Illustratorin Lilian von Drathen sowie künstlerische Lampen von Atelier noor
+    (Ragna Buck & Julia Weber). Besucher*innen jeden Alters können ohne Anmeldung
+    Keramikgefäße bemalen, die anschließend glasiert und gebrannt werden. 11–19 Uhr.
+- zeitpunkt: 2026-06-20T11:00
+  ort: Christianswiese
+  titel: Kunstmarkt
+  kategorien:
+  - kunst altonale
+  - Märkte
+  beschreibung: >-
+    In der grünen Kulisse der Christianswiese ist auch dieses Jahr wieder geschäftiges
+    Treiben: Es ist Kunstmarkt! Künstler*innen präsentieren und verkaufen ihre Werke
+    – von Malerei, Zeichnung, Grafik und Fotografie bis Skulptur und Urban Art. Alle
+    Künstler*innen sind persönlich anwesend. Am Sonntag findet zudem die große Kunstauktion
+    mit Auktionator Gerhard Fiedler statt. Für das leibliche Wohl ist im Gastronomiezelt
+    gesorgt, dazu Bühne und Live Musik. 20. & 21.06., 11–18 Uhr.
+- zeitpunkt: 2026-06-20T13:00
+  ort: Alma-Wartenberg-Platz
+  titel: Keine mehr! – Eine Aktion zur Errichtung eines Mahnmals gegen Feminizide
+  kategorien:
+  - altonale specials
+  beschreibung: >-
+    Gewalt gegen Frauen* ist allgegenwärtig und endet oft in der Ermordung von Frauen*
+    – meist durch Partner, Ex-Partner, Brüder oder Väter. Auf dem Alma-Wartenberg-Platz
+    finden seit Jahren Gedenkveranstaltungen statt; eine Gruppe von Anwohnerinnen
+    hat selbstorganisiert ein Mahnmal aufgestellt, das beschädigt und entwendet wurde.
+    Nun verhandelt die Gruppe mit dem Bezirk Altona über ein dauerhaftes Mahnmal.
+    An diesem Tag besteht Gelegenheit zum Austausch, zu Fragen und kreativer Mitgestaltung.
+    13–16 Uhr.
+- zeitpunkt: 2026-06-20T14:00
+  ort: Platz der Republik
+  titel: 'Kollektiv Kubik: Flaschenpostamt (DE)'
+  kategorien:
+  - STAMP Interaktion & Intervention
+  beschreibung: >-
+    Partizipative Intervention, rollstuhlgeeignet. Im neu eröffneten FLASCHENPOSTAMT
+    in der Nähe des Infopoints sind Besucher*innen eingeladen, einen Brief an Unbekannt
+    zu schreiben. Die Flaschenpostbeamtinnen stellen eine Frage, die Briefe werden
+    als Flaschenpost verpackt und zur zweiten Filiale am Stuhlmannbrunnen gebracht,
+    wo weitere anonyme Nachrichten aus dem Wasser gefischt werden können. Konzept
+    und Performance: Kollektiv Kubik. Mit freundlicher Unterstützung der Stiftung
+    Hamburger Wohnen. (Diese Performance lief am 20.06. um 14 Uhr und um 16.30 Uhr.)
+- zeitpunkt: 2026-06-20T14:00
+  ort: HausDrei – Stadtteilkulturzentrum in Altona-Altstadt
+  titel: 'Rotznasen Zirkusschule: Together On Stage (DE)'
+  kategorien:
+  - STAMP Kids Space & Teens Stage
+  dauer: 30 Min.
+  beschreibung: >-
+    Kinder- und Jugendzirkus, 30 Min., Deutsch – wenig Sprache, rollstuhlgerecht.
+    Die jungen Artist*innen der Zirkusschule „Die Rotznasen“ zeigen auf der Open-Air-Bühne
+    am HausDrei Akrobatik, Jonglage und Luftartistik und beziehen das Publikum humorvoll
+    mit ein. Mit freundlicher Unterstützung des Bezirksamts Altona und der Kurt Denker-Stiftung.
+    Eine Veranstaltung vom HausDrei e.V.
+- zeitpunkt: 2026-06-20T14:00
+  ort: Platz der Republik
+  titel: 'Société Protectrice de Petites Idées: COW LOVE (FR)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+  dauer: 50 Min.
+  beschreibung: >-
+    Zynischer Zirkus, 50 Min., ab 7 Jahren, Englisch, rollstuhlgeeignet. Zwei Meister*innen
+    der Fehlschläge feiern die Freude an der Unvollkommenheit: High Fashion trifft
+    Sport, Akrobatik trifft Trash und Tanz. Inszenierung und Performance: Nanda Suc
+    und Federico Robledo.
+- zeitpunkt: 2026-06-20T14:15
+  ort: Altonaer Balkon
+  titel: 'Körperfunkkollektiv: EinFlussreich (DE)'
+  kategorien:
+  - STAMP Interaktion & Intervention
+  dauer: 30 Min.
+  beschreibung: >-
+    Radioballett, 30 Min., ab 8 Jahren, Deutsch. Bis zu 50 Teilnehmende lauschen über
+    Kopfhörer einer Geschichte und erwecken sie durch einfache Handlungsimpulse zum
+    Leben. Am Beispiel des Elements Wasser werden menschliche Einflüsse auf die Natur
+    erkundet: Wem gehört das Wasser? Konzept und Text: Körperfunkkollektiv.
+- zeitpunkt: 2026-06-20T14:30
+  ort: HausDrei – Stadtteilkulturzentrum in Altona-Altstadt
+  titel: Spielraum – Open Space für kleine Entdecker*innen (DE)
+  kategorien:
+  - STAMP Kids Space & Teens Stage
+  beschreibung: >-
+    Spiel & Action, ab 3 Jahren, rollstuhlgerecht. Der Spielraum im Gartenbereich
+    des HausDrei Kindertreffs lädt zu Stelzenlaufen, Diabolo, Tellerdrehen, riesigem
+    4-Gewinnt oder Cornhole ein – der perfekte Ort für aktive Pausen zwischen zwei
+    Shows, betreut während der Öffnungszeiten. 14.30–16.30 Uhr. Eine Veranstaltung
+    vom HausDrei e.V.
+- zeitpunkt: 2026-06-20T14:30
+  ort: Platz der Republik
+  titel: 'Pikz Palace: Boucherie Bacul (BE)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+  dauer: 30 Min.
+  beschreibung: >-
+    Delikates Theater, 30 Min., ab 10 Jahren, Deutsch, rollstuhlgeeignet. Die BOUCHERIE
+    BACUL ist eine altmodische Metzgerei, in der nichts ist wie es scheint: Die Geschwister
+    Simone und Marcel Bacul verkaufen ihre morbiden, garantiert fleischfreien Delikatessen
+    mit unhöflichem Charme und düsterem Humor. Inszenierung, Performance und Szenografie:
+    Eric Peeters und Greet Verhoeven. (Diese Performance lief am 20.06. um 14.30 Uhr
+    und um 15.45 Uhr.)
+- zeitpunkt: 2026-06-20T15:00
+  ort: Altonaer Museum
+  titel: Art Bike
+  kategorien:
+  - kunst altonale
+  beschreibung: >-
+    Eine Fahrradtour mit der Galeristin und Kulturvermittlerin Angela Holzhauer zu
+    temporären Ausstellungsorten. Eigenes Fahrrad mitbringen, Ausstieg jederzeit möglich.
+    Ticketpflichtig (Pay-what-you-want). 15–17 Uhr, Treffpunkt: Altonaer Museum.
+- zeitpunkt: 2026-06-20T15:00
+  ort: Platz der Republik
+  titel: 'TriBühne Circusschule: Vier Elemente (DE)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+  dauer: 25 Min.
+  beschreibung: >-
+    Zirkus, 25 Min., nonverbal, rollstuhlgeeignet. In schillernden Outfits interpretieren
+    die Artist*innen der inklusiven TriX Gruppe die vier Elemente Feuer, Wasser, Erde
+    und Luft mit Akrobatik, Jonglage, Tanz und Einrad. Leitung: Holger de Vries. (Diese
+    Performance lief am 20.06. um 15 Uhr und um 16.15 Uhr.)
+- zeitpunkt: 2026-06-20T15:00
+  ort: Altonaer Balkon
+  titel: 'Compagnie AR: Passages (FR)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+  dauer: 30 Min.
+  beschreibung: >-
+    Kontorsion, 30 Min., ab 4 Jahren, nonverbal, rollstuhlgeeignet. Im Inneren eines
+    Plexiglaskubus erforscht die italienisch-brasilianische Kontorsionistin Alice
+    Rende den engen Raum und die Grenzen von Freiheit und Eingesperrtsein. Mit Unterstützung
+    der Claussen-Simon-Stiftung.
+- zeitpunkt: 2026-06-20T15:00
+  ort: Christianskirche
+  titel: Sonioù an Norzh
+  kategorien:
+  - musik altonale
+  beschreibung: >-
+    Die „Töne/Klänge des Nordens“ bilden die Musikabteilung von ABBAN: sieben Musikerinnen
+    und Musiker mit Wurzeln in der Bretagne und der norddeutschen Tiefebene verweben
+    auf Klarinette, Gitarre, Drehleier, Flöten, Biniou, Geige und diatonischem Knopfakkordeon
+    bretonische Melodien zu tanzbaren Suiten.
+- zeitpunkt: 2026-06-20T15:00
+  ort: Altonaer Museum
+  titel: AERO Transeuropäische Tagung
+  kategorien:
+  - altonale specials
+  beschreibung: >-
+    „A European Refugees Odyssey“, organisiert von theater: playstation. 15–18 Uhr
+    Workshop „Punti Di Fuga“ mit Stefania Milazzo zu interkultureller Verständigung;
+    19–21 Uhr audiovisuelle Präsentation des Projekts „Punti di Fuga – Fluchtpunkte“
+    (Lampedusa/Dresden, 10-jähriges Jubiläum). Eintritt frei.
+- zeitpunkt: 2026-06-20T15:00
+  ort: HausDrei – Stadtteilkulturzentrum in Altona-Altstadt
+  titel: ESHX (DE)
+  kategorien:
+  - STAMP Kids Space & Teens Stage
+  dauer: 10 Min.
+  beschreibung: >-
+    Hip-Hop & K-Pop Dance, 10 Min., nonverbal, rollstuhlgerecht. Die jungen Tänzerinnen
+    der Gruppe ESHX (Esche Jugendkunsthaus) präsentieren unter Leitung von Sarah-Ann
+    Prince eine energiegeladene Mischung aus Hip-Hop und K-Pop.
+- zeitpunkt: 2026-06-20T15:45
+  ort: Altonaer Balkon
+  titel: 'Körperfunkkollektiv: EinFlussreich (DE)'
+  kategorien:
+  - STAMP Interaktion & Intervention
+  beschreibung: >-
+    Siehe Beschreibung der 14.15-Uhr-Vorstellung (Radioballett zum Thema Wasser).
+- zeitpunkt: 2026-06-20T15:45
+  ort: HausDrei – Stadtteilkulturzentrum in Altona-Altstadt
+  titel: 'IYASA: Climate of Change (ZW)'
+  kategorien:
+  - STAMP Kids Space & Teens Stage
+  dauer: 45 Min.
+  beschreibung: >-
+    Tanztheater, 45 Min., ab 10 Jahren, Englisch und Ndebele, rollstuhlgerecht. Junge
+    Künstler*innen aus Simbabwe bringen mit Musik, Tanz und Theater eine Botschaft
+    zum Klimawandel auf die Bühne und zeigen, wie er Armut und Ungleichheit verschärft.
+    Organisiert von der KinderKulturKarawane, Regie: Nkululeko Innocent Dube.
+- zeitpunkt: 2026-06-20T15:45
+  ort: Platz der Republik
+  titel: 'Pikz Palace: Boucherie Bacul (BE)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+  beschreibung: >-
+    Siehe Beschreibung der 14.30-Uhr-Vorstellung (Belgische Metzgerei-Performance
+    der Geschwister Bacul).
+- zeitpunkt: 2026-06-20T16:00
+  ort: Pauluskirche – Ev.-Luth. Paulus-Kirchengemeinde Altona
+  titel: 'Auf der Zinne^ – neuer Klang: ESSENZ'
+  kategorien:
+  - musik altonale
+  beschreibung: >-
+    Uraufführung "ESSENZ Ruth Zechlin Reloaded". Die wiederentdeckten Silesius-Gesänge
+    der Komponistin Ruth Zechlin (1926–2007) erklingen posthum zum 100. Geburtstag,
+    verbunden mit einem Auftragswerk von Julia Waldeck. Besetzung Sopran, Flöte, Orgel;
+    mit Werken von Oxana Omelchuk. Mitwirkende: Irene Kurka (Sopran), Lucie Benediktová
+    (Flöte), Kerstin Petersen (Orgel/Leitung). Ticketpflichtig (Pay-what-you-want).
+- zeitpunkt: 2026-06-20T16:15
+  ort: Platz der Republik
+  titel: 'TriBühne Circusschule: Vier Elemente (DE)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+  beschreibung: >-
+    Siehe Beschreibung der 15-Uhr-Vorstellung (Zirkus zu den vier Elementen).
+- zeitpunkt: 2026-06-20T16:30
+  ort: Platz der Republik
+  titel: 'Kollektiv Kubik: Flaschenpostamt (DE)'
+  kategorien:
+  - STAMP Interaktion & Intervention
+  beschreibung: >-
+    Siehe Beschreibung der 14-Uhr-Vorstellung (Flaschenpostamt, partizipative Brief-Intervention).
+- zeitpunkt: 2026-06-20T16:45
+  ort: Christianswiese
+  titel: 'Körperfunkkollektiv: Wohlstandsparadox (DE)'
+  kategorien:
+  - STAMP Interaktion & Intervention
+  dauer: 30 Min.
+  beschreibung: >-
+    Radioballett, 30 Min., ab 8 Jahren, Deutsch. Untersucht die Vermögensungleichheit
+    in einem Land mit hohem Lebensstandard. Bis zu 50 Teilnehmende werden über Kopfhörer
+    selbst zu Performer*innen. Konzept und Text: Körperfunkkollektiv. (Diese Performance
+    lief am 20.06. um 16.45 Uhr und um 19.15 Uhr.)
+- zeitpunkt: 2026-06-20T17:00
+  ort: Platz der Republik
+  titel: 'DeRonde/Deroo: It really hurts when your head hits the concrete (NL)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+  dauer: 35 Min.
+  beschreibung: >-
+    Physische Performance, 35 Min., nonverbal, rollstuhlgeeignet. Ein Mann schleppt
+    seinen Begleiter wie eine Stoffpuppe mit sich herum – eine humorvoll-poetische
+    Geschichte über persönlichen Ballast. Inszenierung: Nick Deroo und Tom de Ronde.
+    (Diese Performance lief am 20.06. um 17 Uhr und um 19.15 Uhr.)
+- zeitpunkt: 2026-06-20T17:00
+  ort: HausDrei – Stadtteilkulturzentrum in Altona-Altstadt
+  titel: 'Glitch AG: Future im Kopf, Change im Herz'
+  kategorien:
+  - STAMP Kids Space & Teens Stage
+  dauer: 50 Min.
+  beschreibung: >-
+    Partizipatives Audio-Game, 50 Min., ab 14 Jahren, Deutsch, max. 75 Teilnehmende.
+    Hamburger Jugendliche, die noch nicht wählen durften, bringen ihre Stimmen über
+    Funkkopfhörer in ein Spiel rund um Demokratie und politische Teilhabe ein. Konzept:
+    studio flex und Glitch AG, mit Schüler*innen mehrerer Hamburger Schulen.
+- zeitpunkt: 2026-06-20T17:30
+  ort: Altonaer Balkon
+  titel: Klangkorb feat. Fernanda von Sachsen
+  kategorien:
+  - musik altonale
+  beschreibung: >-
+    Aus Rhythmus, Stimme und elektrischen Texturen entsteht sich ständig wandelnde
+    Musik: pulsierend, körperlich, fragil. Mit Alex Petratos (Dr/FX), Fernanda von
+    Sachsen (Voc/FX) und Christopher Olesch (Keys/Synth). Zeltbühne auf dem Altonaer
+    Balkon.
+- zeitpunkt: 2026-06-20T17:45
+  ort: Platz der Republik
+  titel: 'Mona Farivar: Tikké Tikké (DE)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+  dauer: 25 Min.
+  beschreibung: >-
+    Tanz, 25 Min., ab 12 Jahren, Deutsch, rollstuhlgeeignet. Die Tänzerin und Choreografin
+    Mona Farivar erkundet die transgenerationale Bürde einer iranischen Familie in
+    Deutschland und kombiniert Hip-Hop mit traditionellem persischem Tanz. Mit Unterstützung
+    der Claussen-Simon-Stiftung.
+- zeitpunkt: 2026-06-20T18:00
+  ort: Christianswiese
+  titel: Bateria Altona
+  kategorien:
+  - musik altonale
+  beschreibung: >-
+    Bateria Altona Cidade & Max-Brauer-Schule: 5 Samba-Bands, 70 Trommler*innen im
+    Alter von 10 bis 60 Jahren mit großem Finale. Samba Batucada, Salsa, Reggae, Ragga,
+    Funk u.v.m. unter der Leitung von Pierre Joan Maarifat. Communitybühne auf der
+    Christianswiese.
+- zeitpunkt: 2026-06-20T18:30
+  ort: Platz der Republik
+  titel: 'Cies. Humo y Polvo & Las Corpa: Obsolete Elegance (BE)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+  dauer: 45 Min.
+  beschreibung: >-
+    Subversiver Zirkus, 45 Min., ab 6 Jahren, Englisch, rollstuhlgeeignet. Vier internationale
+    Künstlerinnen feiern mit surrealen Kostümen aus recycelten Materialien die Energie
+    des Unangepassten und finden Schönheit im Grotesken. Performance: Ignacia Parraguez,
+    Lorena Di Bello, Martina Calvo, Morgane Maret. (Diese Performance lief bereits
+    am 19.06. um 19.15 Uhr.)
+- zeitpunkt: 2026-06-20T18:45
+  ort: Platz der Republik
+  titel: 'Pikz Palace: Kagoels (BE)'
+  kategorien:
+  - STAMP Interaktion & Intervention
+  dauer: 30 Min.
+  beschreibung: >-
+    Walkact, 30 Min., nonverbal. Zwei skurril gekleidete surrealistische Figuren streifen
+    nervös und exzentrisch durch den Park und meiden jeden Kontakt – was gerade dadurch
+    besondere Neugier weckt. Inszenierung: Eric Peeters und Greet Verhoeven.
+- zeitpunkt: 2026-06-20T19:00
+  ort: Chemnitzstraße 2
+  titel: Quiz im Nachtcafé
+  kategorien:
+  - altonale specials
+  beschreibung: >-
+    Offener Quizabend für Interessierte und Nachbar*innen zum Zuhören, Austauschen
+    und Begegnen. Ohne Anmeldung, Eintritt frei, Getränke & Snacks zum Selbstkostenpreis.
+    19–22 Uhr.
+- zeitpunkt: 2026-06-20T19:15
+  ort: Christianswiese
+  titel: 'Körperfunkkollektiv: Wohlstandsparadox (DE)'
+  kategorien:
+  - STAMP Interaktion & Intervention
+  beschreibung: >-
+    Siehe Beschreibung der 16.45-Uhr-Vorstellung (Radioballett zur Vermögensungleichheit).
+- zeitpunkt: 2026-06-20T19:15
+  ort: Platz der Republik
+  titel: 'DeRonde/Deroo: It really hurts when your head hits the concrete (NL)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+  beschreibung: >-
+    Siehe Beschreibung der 17-Uhr-Vorstellung (physische Performance über persönlichen
+    Ballast).
+- zeitpunkt: 2026-06-20T19:30
+  ort: Altonaer Balkon
+  titel: ENJAKU YOYO
+  kategorien:
+  - musik altonale
+  beschreibung: >-
+    Japanisches Hyperpop-Duo mit Sitz in den Niederlanden, das elektronische Musik,
+    Rock-Energie und virtuoses Gitarrenspiel verbindet. Der Name steht für kleine
+    Vögel, die aus ihrem Käfig ausbrechen – Symbol für Freiheit und Selbstverwirklichung.
+    Zeltbühne am Altonaer Balkon.
+- zeitpunkt: 2026-06-20T20:00
+  ort: Christianswiese
+  titel: Social Dance Club
+  kategorien:
+  - musik altonale
+  - tanz altonale
+  beschreibung: >-
+    Der Social Dance Club legt auf – Tanz zu den wärmsten und verrücktesten Beats
+    aus aller Welt. Sonst als spontane Jams oder regelmäßig im Bewegungsraum des Gängeviertels,
+    dieses Mal zu Gast bei der altonale. Communitybühne auf der Christianswiese.
+- zeitpunkt: 2026-06-20T20:30
+  ort: Platz der Republik
+  titel: LECHAPUS – PLASTIC JESUS
+  kategorien:
+  - musik altonale
+  beschreibung: >-
+    Der Musiker und Performer LECHAPUS aus Nantes ist für seine "Poesie des Mülls"
+    und "Plastic Party" bekannt: DIY-Elektroakustik, selbstentwickeltes Cocaphon,
+    Kanister-Trommeln und Auto-Tune-Songs zu Konsum und Nachhaltigkeit. Bühne am Festivalzentrum,
+    Platz der Republik.
+- zeitpunkt: 2026-06-20T22:00
+  ort: Platz der Republik
+  titel: DJ Babyblade
+  kategorien:
+  - musik altonale
+  beschreibung: >-
+    Im Hamburger Underground aufsteigende Musik-Selekteurin, bekannt für energetische
+    Sets mit tiefen Basslines und genreübergreifenden Sound. Bühne am Festivalzentrum,
+    Platz der Republik.
+- zeitpunkt: 2026-06-21T09:00
+  ort: Platz der Republik
+  titel: altonale Flohmarkt
+  kategorien:
+  - Märkte
+- zeitpunkt: 2026-06-21T10:00
+  ort: Altona
+  titel: Ausstellungen & Installationen
+  kategorien:
+  - altonale 24/7
+  - kunst altonale
+  - literatur altonale
+- zeitpunkt: 2026-06-21T10:00
+  ort: Altonaer Museum
+  titel: AERO Transeuropäische Tagung
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-21T11:00
+  ort: Bei der Rolandsmühle 23
+  titel: Porzellan, Illustration und selber Malen
+  kategorien:
+  - altonale specials
+- zeitpunkt: 2026-06-21T11:00
+  ort: Altonaer Museum
+  titel: Lesung zur Ausstellung „Blutiger Boden. Die Tatorte des NSU"
+  kategorien:
+  - literatur altonale
+- zeitpunkt: 2026-06-21T11:00
+  ort: Christianswiese
+  titel: Kunstmarkt
+  kategorien:
+  - kunst altonale
+  - Märkte
+- zeitpunkt: 2026-06-21T12:30
+  ort: HausDrei – Stadtteilkulturzentrum in Altona-Altstadt
+  titel: Graffiti mit dem ARIMA Kunstkollektiv (DE)
+  kategorien:
+  - STAMP Kids Space & Teens Stage
+  dauer: 60 Min.
+  beschreibung: >-
+    Workshop, 60 Min., ab 10 Jahren, Deutsch, max. 8 Teilnehmende, mit Anmeldung.
+    Laura Hormaetxe und Moritz Etorena vom ARIMA Kunstkollektiv bringen über 25 Jahre
+    internationale Erfahrung als Graffiti-Künstler*innen und Kunstpädagog*innen ins
+    HausDrei. Erlerne den Umgang mit der Spraydose und melde dich für einen ihrer
+    praxisnahen Graffiti-Workshops für Kids und Jugendliche ab 10 Jahren an. Mit Projekten
+    wie "Graffiti für Vielfalt" oder "Beethoven Moves" zeigen sie, wie Kunst Brücken
+    baut und Vielfalt feiert. Mit freundlicher Unterstützung der Kurt Denker-Stiftung.
+    Eine Veranstaltung vom HausDrei e.V.
+- zeitpunkt: 2026-06-21T13:00
+  ort: HausDrei – Stadtteilkulturzentrum in Altona-Altstadt
+  titel: 'Theater Zeppelin: Pokko und die Trommel (DE)'
+  kategorien:
+  - STAMP Kids Space & Teens Stage
+  dauer: 45 Min.
+  beschreibung: >-
+    Theater für Kinder, 45 Min., ab 3 Jahren, Deutsch, rollstuhlgerecht. Frösche lieben
+    Fehler! Ein Frosch bekommt von seinen Eltern eine Trommel geschenkt. Doch das
+    Trommeln zu Hause wird schnell zu laut, und so zieht der Frosch los in die Welt
+    hinaus. Was wird für eine so große Reise eingepackt? Und was, wenn man etwas vergisst
+    oder Sachen mitnimmt, die sich als großer Fehler herausstellen? Regie: Lionel
+    Tomm. Mit freundlicher Unterstützung der altoba-Stiftung der Altonaer Spar- und
+    Bauverein eG. Eine Veranstaltung vom HausDrei e.V.
+- zeitpunkt: 2026-06-21T13:30
+  ort: Altonaer Balkon
+  titel: 'Compagnie AR: Passages (FR)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+  beschreibung: >-
+    Kontorsion, 30 Min., ab 4 Jahren, nonverbal, rollstuhlgeeignet. Im Inneren eines
+    Plexiglaskubus erforscht die italienisch-brasilianische Kontorsionistin Alice
+    Rende den engen Raum und die Grenzen von Freiheit und Eingesperrtsein. Mit Unterstützung
+    der Claussen-Simon-Stiftung.
+  dauer: 30 Min.
+- zeitpunkt: 2026-06-21T13:30
+  ort: Platz der Republik
+  titel: 'Kollektiv Kubik: Flaschenpostamt (DE)'
+  kategorien:
+  - STAMP Interaktion & Intervention
+  beschreibung: >-
+    Partizipative Intervention, rollstuhlgeeignet. Im neu eröffneten FLASCHENPOSTAMT
+    in der Nähe des Infopoints sind Besucher*innen eingeladen, einen Brief an Unbekannt
+    zu schreiben. Die Flaschenpostbeamtinnen stellen eine Frage, die Briefe werden
+    als Flaschenpost verpackt und zur zweiten Filiale am Stuhlmannbrunnen gebracht,
+    wo weitere anonyme Nachrichten aus dem Wasser gefischt werden können. Konzept
+    und Performance: Kollektiv Kubik. Mit freundlicher Unterstützung der Stiftung
+    Hamburger Wohnen. (Diese Performance lief am 20.06. um 14 Uhr und um 16.30 Uhr.)
+- zeitpunkt: 2026-06-21T13:30
+  ort: Platz der Republik
+  titel: 'Pikz Palace: Boucherie Bacul (BE)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+  beschreibung: >-
+    Delikates Theater, 30 Min., ab 10 Jahren, Deutsch, rollstuhlgeeignet. Die BOUCHERIE
+    BACUL ist eine altmodische Metzgerei, in der nichts ist wie es scheint: Die Geschwister
+    Simone und Marcel Bacul verkaufen ihre morbiden, garantiert fleischfreien Delikatessen
+    mit unhöflichem Charme und düsterem Humor. Inszenierung, Performance und Szenografie:
+    Eric Peeters und Greet Verhoeven. (Diese Performance lief am 20.06. um 14.30 Uhr
+    und um 15.45 Uhr.)
+  dauer: 30 Min.
+- zeitpunkt: 2026-06-21T13:30
+  ort: HausDrei – Stadtteilkulturzentrum in Altona-Altstadt
+  titel: Spielraum – Open Space für kleine Entdecker*innen (DE)
+  kategorien:
+  - STAMP Kids Space & Teens Stage
+  beschreibung: >-
+    Spiel & Action, ab 3 Jahren, rollstuhlgerecht. Der Spielraum im Gartenbereich
+    des HausDrei Kindertreffs lädt zu Stelzenlaufen, Diabolo, Tellerdrehen, riesigem
+    4-Gewinnt oder Cornhole ein – der perfekte Ort für aktive Pausen zwischen zwei
+    Shows, betreut während der Öffnungszeiten. 14.30–16.30 Uhr. Eine Veranstaltung
+    vom HausDrei e.V.
+- zeitpunkt: 2026-06-21T13:45
+  ort: HausDrei – Stadtteilkulturzentrum in Altona-Altstadt
+  titel: Graffiti mit dem ARIMA Kunstkollektiv (DE)
+  kategorien:
+  - STAMP Kids Space & Teens Stage
+  beschreibung: >-
+    Workshop, 60 Min., ab 10 Jahren, Deutsch, max. 8 Teilnehmende, mit Anmeldung.
+    Laura Hormaetxe und Moritz Etorena vom ARIMA Kunstkollektiv bringen über 25 Jahre
+    internationale Erfahrung als Graffiti-Künstler*innen und Kunstpädagog*innen ins
+    HausDrei. Erlerne den Umgang mit der Spraydose und melde dich für einen ihrer
+    praxisnahen Graffiti-Workshops für Kids und Jugendliche ab 10 Jahren an. Mit Projekten
+    wie "Graffiti für Vielfalt" oder "Beethoven Moves" zeigen sie, wie Kunst Brücken
+    baut und Vielfalt feiert. Mit freundlicher Unterstützung der Kurt Denker-Stiftung.
+    Eine Veranstaltung vom HausDrei e.V.
+  dauer: 60 Min.
+- zeitpunkt: 2026-06-21T13:45
+  ort: HausDrei – Stadtteilkulturzentrum in Altona-Altstadt
+  titel: Klapping (DE)
+  kategorien:
+  - STAMP Kids Space & Teens Stage
+  dauer: 90 Min.
+  beschreibung: >-
+    Workshop, 90 Min., ab 6 Jahren, Deutsch, max. 25 Teilnehmende. Klapping ist ein
+    Workshop auf dem Sportplatz des HausDrei, an der Schnittstelle von Fußball, Tanz
+    und kollektivem Ritual. Ausgehend von Rhythmen, Gesten und Codes des Fußballs
+    entsteht eine eigene, kraftvolle Bewegungssprache, die gemeinsam mit einfachen
+    Übungen und präzisen Impulsen erkundet wird. Vorkenntnisse sind nicht nötig. Workshopleitung:
+    Justine Kusi und Noah Tepe. Mit freundlicher Unterstützung der altoba-Stiftung
+    der Altonaer Spar- und Bauverein eG. Eine Veranstaltung vom HausDrei e.V.
+- zeitpunkt: 2026-06-21T14:00
+  ort: Christianskirche
+  titel: Tanzen macht glücklich
+  kategorien:
+  - altonale specials
+  beschreibung: >-
+    Musik verbindet! Am altonale-Sonntag verwandelt sich die Christianskirche in eine
+    Tanzfläche der Lebensfreude. Die Initiative OLL INKLUSIV Hamburg lädt ein, gemeinsam
+    aktiv zu werden: Tanz gegen die Einsamkeit und für das Miteinander. Ob Ü60++ oder
+    Junggeblieben – bei Boogie, Funk, Soul und mancher Überraschung vermischen sich
+    alle Generationen zu einem bunten Fest.
+- zeitpunkt: 2026-06-21T14:15
+  ort: Platz der Republik
+  titel: 'Société Protectrice de Petites Idées: COW LOVE (FR)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+  beschreibung: >-
+    Zynischer Zirkus, 50 Min., ab 7 Jahren, Englisch, rollstuhlgeeignet. Zwei Meister*innen
+    der Fehlschläge feiern die Freude an der Unvollkommenheit: High Fashion trifft
+    Sport, Akrobatik trifft Trash und Tanz. Inszenierung und Performance: Nanda Suc
+    und Federico Robledo.
+  dauer: 50 Min.
+- zeitpunkt: 2026-06-21T14:30
+  ort: Altonaer Balkon
+  titel: 'Körperfunkkollektiv: EinFlussreich (DE)'
+  kategorien:
+  - STAMP Interaktion & Intervention
+  beschreibung: >-
+    Radioballett, 30 Min., ab 8 Jahren, Deutsch. Bis zu 50 Teilnehmende lauschen über
+    Kopfhörer einer Geschichte und erwecken sie durch einfache Handlungsimpulse zum
+    Leben. Am Beispiel des Elements Wasser werden menschliche Einflüsse auf die Natur
+    erkundet: Wem gehört das Wasser? Konzept und Text: Körperfunkkollektiv.
+  dauer: 30 Min.
+- zeitpunkt: 2026-06-21T15:00
+  ort: HausDrei – Stadtteilkulturzentrum in Altona-Altstadt
+  titel: Graffiti mit dem ARIMA Kunstkollektiv (DE)
+  kategorien:
+  - STAMP Kids Space & Teens Stage
+  beschreibung: >-
+    Workshop, 60 Min., ab 10 Jahren, Deutsch, max. 8 Teilnehmende, mit Anmeldung.
+    Laura Hormaetxe und Moritz Etorena vom ARIMA Kunstkollektiv bringen über 25 Jahre
+    internationale Erfahrung als Graffiti-Künstler*innen und Kunstpädagog*innen ins
+    HausDrei. Erlerne den Umgang mit der Spraydose und melde dich für einen ihrer
+    praxisnahen Graffiti-Workshops für Kids und Jugendliche ab 10 Jahren an. Mit Projekten
+    wie "Graffiti für Vielfalt" oder "Beethoven Moves" zeigen sie, wie Kunst Brücken
+    baut und Vielfalt feiert. Mit freundlicher Unterstützung der Kurt Denker-Stiftung.
+    Eine Veranstaltung vom HausDrei e.V.
+  dauer: 60 Min.
+- zeitpunkt: 2026-06-21T15:00
+  ort: Christianswiese
+  titel: Kunstauktion auf dem Kunstmarkt
+  kategorien:
+  - kunst altonale
+  - Märkte
+  beschreibung: >-
+    Die große Kunstauktion mit Auktionator Gerhard Fiedler findet auch in diesem Jahr
+    auf dem Kunstmarkt statt. Spannende Originale werden hier zu moderaten Preisen
+    versteigert. Christianswiese, zwischen Rathaus und Christianskirche.
+- zeitpunkt: 2026-06-21T15:15
+  ort: Platz der Republik
+  titel: 'Pikz Palace: Boucherie Bacul (BE)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+  beschreibung: >-
+    Delikates Theater, 30 Min., ab 10 Jahren, Deutsch, rollstuhlgeeignet. Die BOUCHERIE
+    BACUL ist eine altmodische Metzgerei, in der nichts ist wie es scheint: Die Geschwister
+    Simone und Marcel Bacul verkaufen ihre morbiden, garantiert fleischfreien Delikatessen
+    mit unhöflichem Charme und düsterem Humor. Inszenierung, Performance und Szenografie:
+    Eric Peeters und Greet Verhoeven. (Diese Performance lief am 20.06. um 14.30 Uhr
+    und um 15.45 Uhr.)
+  dauer: 30 Min.
+- zeitpunkt: 2026-06-21T15:15
+  ort: HausDrei – Stadtteilkulturzentrum in Altona-Altstadt
+  titel: 'IYASA: Climate of Change (ZW)'
+  kategorien:
+  - STAMP Kids Space & Teens Stage
+  beschreibung: >-
+    Tanztheater, 45 Min., ab 10 Jahren, Englisch und Ndebele, rollstuhlgerecht. Junge
+    Künstler*innen aus Simbabwe bringen mit Musik, Tanz und Theater eine Botschaft
+    zum Klimawandel auf die Bühne und zeigen, wie er Armut und Ungleichheit verschärft.
+    Organisiert von der KinderKulturKarawane, Regie: Nkululeko Innocent Dube.
+  dauer: 45 Min.
+- zeitpunkt: 2026-06-21T15:30
+  ort: Altonaer Balkon
+  titel: 'Compagnie AR: Passages (FR)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+  beschreibung: >-
+    Kontorsion, 30 Min., ab 4 Jahren, nonverbal, rollstuhlgeeignet. Im Inneren eines
+    Plexiglaskubus erforscht die italienisch-brasilianische Kontorsionistin Alice
+    Rende den engen Raum und die Grenzen von Freiheit und Eingesperrtsein. Mit Unterstützung
+    der Claussen-Simon-Stiftung.
+  dauer: 30 Min.
+- zeitpunkt: 2026-06-21T15:45
+  ort: Platz der Republik
+  titel: 'Kollektiv Kubik: Flaschenpostamt (DE)'
+  kategorien:
+  - STAMP Interaktion & Intervention
+  beschreibung: >-
+    Partizipative Intervention, rollstuhlgeeignet. Im neu eröffneten FLASCHENPOSTAMT
+    in der Nähe des Infopoints sind Besucher*innen eingeladen, einen Brief an Unbekannt
+    zu schreiben. Die Flaschenpostbeamtinnen stellen eine Frage, die Briefe werden
+    als Flaschenpost verpackt und zur zweiten Filiale am Stuhlmannbrunnen gebracht,
+    wo weitere anonyme Nachrichten aus dem Wasser gefischt werden können. Konzept
+    und Performance: Kollektiv Kubik. Mit freundlicher Unterstützung der Stiftung
+    Hamburger Wohnen. (Diese Performance lief am 20.06. um 14 Uhr und um 16.30 Uhr.)
+- zeitpunkt: 2026-06-21T16:00
+  ort: Christianswiese
+  titel: 'Körperfunkkollektiv: Wohlstandsparadox (DE)'
+  kategorien:
+  - STAMP Interaktion & Intervention
+  beschreibung: >-
+    Radioballett, 30 Min., ab 8 Jahren, Deutsch. Untersucht die Vermögensungleichheit
+    in einem Land mit hohem Lebensstandard. Bis zu 50 Teilnehmende werden über Kopfhörer
+    selbst zu Performer*innen. Konzept und Text: Körperfunkkollektiv. (Diese Performance
+    lief am 20.06. um 16.45 Uhr und um 19.15 Uhr.)
+  dauer: 30 Min.
+- zeitpunkt: 2026-06-21T16:00
+  ort: Lutherkirche – Ev.-Luth. Luther-Kirchengemeinde Hamburg-Bahrenfeld
+  titel: 'Auf der Zinne^ – neuer Klang: ESSENZ'
+  kategorien:
+  - musik altonale
+  beschreibung: >-
+    Uraufführung "ESSENZ Ruth Zechlin Reloaded". Die wiederentdeckten Silesius-Gesänge
+    der Komponistin Ruth Zechlin (1926–2007) erklingen posthum zum 100. Geburtstag,
+    verbunden mit einem Auftragswerk von Julia Waldeck. Besetzung Sopran, Flöte, Orgel;
+    mit Werken von Oxana Omelchuk. Mitwirkende: Irene Kurka (Sopran), Lucie Benediktová
+    (Flöte), Kerstin Petersen (Orgel/Leitung). Ticketpflichtig (Pay-what-you-want).
+- zeitpunkt: 2026-06-21T16:00
+  ort: Platz der Republik
+  titel: 'Mona Farivar: Tikké Tikké (DE)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+  beschreibung: >-
+    Tanz, 25 Min., ab 12 Jahren, Deutsch, rollstuhlgeeignet. Die Tänzerin und Choreografin
+    Mona Farivar erkundet die transgenerationale Bürde einer iranischen Familie in
+    Deutschland und kombiniert Hip-Hop mit traditionellem persischem Tanz. Mit Unterstützung
+    der Claussen-Simon-Stiftung.
+  dauer: 25 Min.
+- zeitpunkt: 2026-06-21T16:00
+  ort: Hafenbahnhof
+  titel: DIE DICKE TROMPETE
+  kategorien:
+  - musik altonale
+  beschreibung: >-
+    In der 2. Episode der 2. Staffel der DICKEN TROMPETE kommen wieder drei neue Musikerinnen
+    zum Zuge – Hamburgs frei improvisierendes Lad*ies Orchestra. Diesmal mit viel
+    Saitenspiel: Singende Säge, präparierte und verstärkte Violine, die kleine, aber
+    fette Schnabeltrompete sowie Saxofon sorgen für wilde Akzente. Gewidmet der unbekannten
+    Spelunken-Trompeterin aus dem Stummfilm "Die Carmen von St. Pauli" (D 1928). Das
+    Konzert ist auch Teil von blurred edges – Festival für aktuelle Musik in Hamburg.
+    Eine Veranstaltung des Hafenbahnhof.
+- zeitpunkt: 2026-06-21T16:15
+  ort: HausDrei – Stadtteilkulturzentrum in Altona-Altstadt
+  titel: Graffiti mit dem ARIMA Kunstkollektiv (DE)
+  kategorien:
+  - STAMP Kids Space & Teens Stage
+  beschreibung: >-
+    Workshop, 60 Min., ab 10 Jahren, Deutsch, max. 8 Teilnehmende, mit Anmeldung.
+    Laura Hormaetxe und Moritz Etorena vom ARIMA Kunstkollektiv bringen über 25 Jahre
+    internationale Erfahrung als Graffiti-Künstler*innen und Kunstpädagog*innen ins
+    HausDrei. Erlerne den Umgang mit der Spraydose und melde dich für einen ihrer
+    praxisnahen Graffiti-Workshops für Kids und Jugendliche ab 10 Jahren an. Mit Projekten
+    wie "Graffiti für Vielfalt" oder "Beethoven Moves" zeigen sie, wie Kunst Brücken
+    baut und Vielfalt feiert. Mit freundlicher Unterstützung der Kurt Denker-Stiftung.
+    Eine Veranstaltung vom HausDrei e.V.
+  dauer: 60 Min.
+- zeitpunkt: 2026-06-21T16:30
+  ort: HausDrei – Stadtteilkulturzentrum in Altona-Altstadt
+  titel: 'Rotznasen Zirkusschule: Together On Stage (DE)'
+  kategorien:
+  - STAMP Kids Space & Teens Stage
+  beschreibung: >-
+    Kinder- und Jugendzirkus, 30 Min., Deutsch – wenig Sprache, rollstuhlgerecht.
+    Die jungen Artist*innen der Zirkusschule „Die Rotznasen“ zeigen auf der Open-Air-Bühne
+    am HausDrei Akrobatik, Jonglage und Luftartistik und beziehen das Publikum humorvoll
+    mit ein. Mit freundlicher Unterstützung des Bezirksamts Altona und der Kurt Denker-Stiftung.
+    Eine Veranstaltung vom HausDrei e.V.
+  dauer: 30 Min.
+- zeitpunkt: 2026-06-21T16:45
+  ort: Platz der Republik
+  titel: 'DeRonde/Deroo: It really hurts when your head hits the concrete (NL)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+  beschreibung: >-
+    Physische Performance, 35 Min., nonverbal, rollstuhlgeeignet. Ein Mann schleppt
+    seinen Begleiter wie eine Stoffpuppe mit sich herum – eine humorvoll-poetische
+    Geschichte über persönlichen Ballast. Inszenierung: Nick Deroo und Tom de Ronde.
+    (Diese Performance lief am 20.06. um 17 Uhr und um 19.15 Uhr.)
+  dauer: 35 Min.
+- zeitpunkt: 2026-06-21T17:15
+  ort: Einkaufsbahnhof Hamburg-Altona
+  titel: LECHAPUS – PLASTIC JESUS
+  kategorien:
+  - musik altonale
+  beschreibung: >-
+    Der Musiker und Performer LECHAPUS aus Nantes ist für seine "Poesie des Mülls"
+    und "Plastic Party" bekannt: DIY-Elektroakustik, selbstentwickeltes Cocaphon,
+    Kanister-Trommeln und Auto-Tune-Songs zu Konsum und Nachhaltigkeit. Bühne am Festivalzentrum,
+    Platz der Republik.
+- zeitpunkt: 2026-06-21T17:30
+  ort: Platz der Republik
+  titel: 'Cies. Humo y Polvo & Las Corpa: Obsolete Elegance (BE)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+  beschreibung: >-
+    Subversiver Zirkus, 45 Min., ab 6 Jahren, Englisch, rollstuhlgeeignet. Vier internationale
+    Künstlerinnen feiern mit surrealen Kostümen aus recycelten Materialien die Energie
+    des Unangepassten und finden Schönheit im Grotesken. Performance: Ignacia Parraguez,
+    Lorena Di Bello, Martina Calvo, Morgane Maret. (Diese Performance lief bereits
+    am 19.06. um 19.15 Uhr.)
+  dauer: 45 Min.
+- zeitpunkt: 2026-06-21T17:30
+  ort: Altonaer Balkon
+  titel: Lioba
+  kategorien:
+  - musik altonale
+  beschreibung: >-
+    Lioba hat eine besondere Gabe, die Seelen der Menschen zu berühren. Das Strahlen
+    der Sängerin zieht alle in ihren Bann. Mit ihrer charismatischen Stimme bringt
+    sie eine Tiefe auf die Bühne, die hoffnungsvoll und leicht begegnet. Ihr Debüt-Album
+    "Magnolia" ist ein Zeugnis für Liobas persönliches und musikalisches Wachstum.
+    Zeltbühne am Altonaer Balkon.
+- zeitpunkt: 2026-06-21T17:45
+  ort: Christianswiese
+  titel: 'Körperfunkkollektiv: Wohlstandsparadox (DE)'
+  kategorien:
+  - STAMP Interaktion & Intervention
+  beschreibung: >-
+    Radioballett, 30 Min., ab 8 Jahren, Deutsch. Untersucht die Vermögensungleichheit
+    in einem Land mit hohem Lebensstandard. Bis zu 50 Teilnehmende werden über Kopfhörer
+    selbst zu Performer*innen. Konzept und Text: Körperfunkkollektiv. (Diese Performance
+    lief am 20.06. um 16.45 Uhr und um 19.15 Uhr.)
+  dauer: 30 Min.
+- zeitpunkt: 2026-06-21T18:00
+  ort: Große Rainstraße 13
+  titel: Büro für Barrierefreiheit zwischen Kunst und Architektur
+  kategorien:
+  - altonale specials
+  beschreibung: >-
+    Einladung zur Eröffnung des "Büro für Barrierefreiheit zwischen Kunst und Architektur".
+    Große Rainstraße 13.
+- zeitpunkt: 2026-06-21T18:00
+  ort: Christianswiese
+  titel: KrassBrassBand
+  kategorien:
+  - musik altonale
+  - junge altonale
+  beschreibung: >-
+    Die KrassBrassBand ist ein Bläserensemble für Kinder und Jugendliche, Träger ist
+    der Verein Musica Altona e.V. Gespielt wird mit Trompete, Kornett, Querflöte,
+    Saxophon, Tenorhorn und Tuba Musik von Barock über Blues bis Balkan Brass. Egal
+    ob am Anfang stehend oder "alte Hasen" – alle sind willkommen, Instrumente können
+    geliehen werden. Communitybühne auf der Christianswiese.
+- zeitpunkt: 2026-06-21T18:30
+  ort: Platz der Republik
+  titel: 'Pikz Palace: Kagoels (BE)'
+  kategorien:
+  - STAMP Interaktion & Intervention
+  beschreibung: >-
+    Walkact, 30 Min., nonverbal. Zwei skurril gekleidete surrealistische Figuren streifen
+    nervös und exzentrisch durch den Park und meiden jeden Kontakt – was gerade dadurch
+    besondere Neugier weckt. Inszenierung: Eric Peeters und Greet Verhoeven.
+  dauer: 30 Min.
+- zeitpunkt: 2026-06-21T19:00
+  ort: Platz der Republik
+  titel: 'DeRonde/Deroo: It really hurts when your head hits the concrete (NL)'
+  kategorien:
+  - STAMP Theater, Tanz & Zirkus
+  beschreibung: >-
+    Physische Performance, 35 Min., nonverbal, rollstuhlgeeignet. Ein Mann schleppt
+    seinen Begleiter wie eine Stoffpuppe mit sich herum – eine humorvoll-poetische
+    Geschichte über persönlichen Ballast. Inszenierung: Nick Deroo und Tom de Ronde.
+    (Diese Performance lief am 20.06. um 17 Uhr und um 19.15 Uhr.)
+  dauer: 35 Min.
+quelle:
+  url: https://www.altonale.de/termin-der-altonale-2026/
+  abgerufen_am: '2026-06-19'
+  hinweis: Daten ohne Gewähr - bitte vor Besuch auf altonale.de aktuelle Programmänderungen
+    prüfen.
