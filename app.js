@@ -846,6 +846,11 @@ function applyAppConfig(parsed) {
   document.title = name;
   const themeMeta = document.querySelector('meta[name="theme-color"]');
   if (themeMeta) themeMeta.content = themeColor;
+  document.querySelectorAll('link[rel="icon"]').forEach(link => {
+    link.href = iconUrl;
+    link.type = iconType;
+    link.removeAttribute('sizes');
+  });
 
   const manifest = {
     name, short_name: name,
