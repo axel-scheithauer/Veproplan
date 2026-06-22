@@ -1,4 +1,4 @@
-const CACHE_NAME = 'altonale-programm-cache-v36';
+const CACHE_NAME = 'altonale-programm-cache-v49';
 const ASSETS = [
   './',
   './index.html',

@@ -25,11 +25,14 @@ function parseYaml(raw) {
   const all = [];
 
   (parsed.programm || []).forEach(item => {
-    const datetime = new Date(item.zeitpunkt);
-    if (Number.isNaN(datetime.getTime())) return;
+    const rawDatetime = item.zeitpunkt instanceof Date ? item.zeitpunkt : new Date(item.zeitpunkt);
+    if (!item.zeitpunkt || isNaN(rawDatetime.getTime())) return;
+    const allDay = rawDatetime.getUTCHours() === 0 && rawDatetime.getUTCMinutes() === 0 &&
+      rawDatetime.getUTCSeconds() === 0 && rawDatetime.getUTCMilliseconds() === 0;
+    const datetime = rawDatetime;
 
     const date = new Date(datetime.getFullYear(), datetime.getMonth(), datetime.getDate());
-    const uhrzeit = datetime.toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit' });
+    const uhrzeit = allDay ? '' : datetime.toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit' });
     const wochentag = datetime.toLocaleDateString('de-DE', { weekday: 'long' });
     const descriptionFromCategories = item.kategorien ? item.kategorien.join(' · ') : '';
     const beschreibung = item.beschreibung || descriptionFromCategories || item.ort || '';
@@ -50,14 +53,15 @@ function parseYaml(raw) {
       date,
       uhrzeit,
       wochentag,
+      allDay,
       titel: item.titel || item.name || '',
       sprecher: Array.isArray(item.sprecher) ? item.sprecher.filter(Boolean) : [],
       ort: item.ort || '',
       kategorien: item.kategorien || [],
       beschreibung,
-      dauer: duration,
-      durationMinutes,
-      endTime,
+      dauer: allDay ? null : duration,
+      durationMinutes: allDay ? null : durationMinutes,
+      endTime: allDay ? null : endTime,
       id: `${item.zeitpunkt}-${item.titel}`.replace(/\s+/g, '-').replace(/[^a-zA-Z0-9-]/g, '')
     });
   });
@@ -67,6 +71,7 @@ function parseYaml(raw) {
 }
 
 function formatTimeLabel(event) {
+  if (event.allDay) return `${event.wochentag} · ganztägig`;
   return `${event.wochentag} · ${event.uhrzeit}`;
 }
 
@@ -78,6 +83,7 @@ const _now = () => {
 };
 
 function isCurrentOrFuture(event) {
+  if (event.allDay) return true;
   if (_debugParam !== null && isNaN(new Date(_debugParam).getTime())) return true;
   const durationMs = (event.durationMinutes ?? 60) * 60 * 1000;
   const end = new Date(event.datetime.getTime() + durationMs);
@@ -233,21 +239,96 @@ function buildDeck() {
   });
 }
 
+function createBreakRow(gapMinutes) {
+  const el = document.createElement('div');
+  el.className = 'break-row';
+  const h = Math.floor(gapMinutes / 60);
+  const m = gapMinutes % 60;
+  const label = h > 0 ? (m > 0 ? `${h} h ${m} min` : `${h} h`) : `${m} min`;
+  el.innerHTML = `<span>${label} Pause</span><span>🛋️</span>`;
+  return el;
+}
+
+function floorToDay(date) {
+  return new Date(date.getFullYear(), date.getMonth(), date.getDate()).getTime();
+}
+
+function eventsOverlap(a, b) {
+  const aEnd = a.datetime.getTime() + (a.durationMinutes ?? 60) * 60000;
+  const bEnd = b.datetime.getTime() + (b.durationMinutes ?? 60) * 60000;
+  return a.datetime.getTime() < bEnd && b.datetime.getTime() < aEnd;
+}
+
+function computeConflicts(selections) {
+  const status = new Map();
+  selections.forEach(s => status.set(s.event.id, 'normal'));
+
+  for (let i = 0; i < selections.length; i++) {
+    if (selections[i].event.allDay) continue;
+    for (let j = i + 1; j < selections.length; j++) {
+      if (selections[j].event.allDay) continue;
+      const a = selections[i], b = selections[j];
+      if (!eventsOverlap(a.event, b.event)) continue;
+
+      if (a.level === b.level) {
+        if (status.get(b.event.id) === 'normal') status.set(b.event.id, 'conflict');
+      } else {
+        const loserId = a.level === 'Interessant' ? a.event.id : b.event.id;
+        if (status.get(loserId) === 'normal') status.set(loserId, 'yielding');
+      }
+    }
+  }
+  return status;
+}
+
 function buildSelectionList() {
-  // Filter to only show Interessant and Highlight, exclude Verzichtbar
   const filteredSelections = Array.from(selectedEvents.values())
     .filter(sel => sel.level === 'Interessant' || sel.level === 'Highlight');
-  
+
   if (filteredSelections.length === 0) {
     cardContainer.innerHTML = '<div class="loading">Noch keine markierten Veranstaltungen.</div>';
     return;
   }
 
-  filteredSelections.forEach(selection => {
+  filteredSelections.sort((a, b) => {
+    const aDayStart = floorToDay(a.event.datetime);
+    const bDayStart = floorToDay(b.event.datetime);
+    if (aDayStart !== bDayStart) return aDayStart - bDayStart;
+    if (a.event.allDay && !b.event.allDay) return -1;
+    if (!a.event.allDay && b.event.allDay) return 1;
+    const dt = a.event.datetime - b.event.datetime;
+    if (dt !== 0) return dt;
+    if (a.level === 'Highlight' && b.level !== 'Highlight') return -1;
+    if (b.level === 'Highlight' && a.level !== 'Highlight') return 1;
+    return 0;
+  });
+
+  const conflicts = computeConflicts(filteredSelections);
+
+  for (let i = 0; i < filteredSelections.length; i++) {
+    const selection = filteredSelections[i];
+
+    if (i > 0) {
+      const prev = filteredSelections[i - 1];
+      if (!prev.event.allDay && !selection.event.allDay &&
+          floorToDay(prev.event.datetime) === floorToDay(selection.event.datetime)) {
+        const prevEnd = prev.event.datetime.getTime() + (prev.event.durationMinutes ?? 60) * 60000;
+        const gapMin = Math.round((selection.event.datetime.getTime() - prevEnd) / 60000);
+        if (gapMin > 0) cardContainer.appendChild(createBreakRow(gapMin));
+      }
+    }
+
     const card = createCard(selection.event, [], 0, false);
     card.classList.add('stack-list');
+    const status = conflicts.get(selection.event.id);
+    if (status === 'conflict') {
+      card.classList.add('card-conflict');
+      const timeEl = card.querySelector('.event-time');
+      if (timeEl) timeEl.insertAdjacentHTML('afterbegin', '<span class="conflict-icon">⚡</span>');
+    }
+    if (status === 'yielding') card.classList.add('card-yielding');
     cardContainer.appendChild(card);
-  });
+  }
 }
 
 function createCard(event, visibleList, stackIndex, isDeck) {
@@ -274,14 +355,14 @@ function createCard(event, visibleList, stackIndex, isDeck) {
     <p class="event-description">${description}</p>
   `;
 
-  if (isDeck) {
-    const swipeLabel = document.createElement('div');
-    swipeLabel.className = 'swipe-label';
-    card.appendChild(swipeLabel);
-  }
+  const swipeLabel = document.createElement('div');
+  swipeLabel.className = 'swipe-label';
+  card.appendChild(swipeLabel);
 
-  if (selection) card.classList.add('selected');
-  if (isHighlight) card.classList.add('superliked');
+  if (isDeck) {
+    if (selection) card.classList.add('selected');
+    if (isHighlight) card.classList.add('superliked');
+  }
 
   if (isDeck) {
     if (stackIndex > 0) card.style.transform = `scale(${1 - stackIndex * 0.07})`;
@@ -294,7 +375,94 @@ function createCard(event, visibleList, stackIndex, isDeck) {
   if (isDeck) {
     attachSwipeHandlers(card, event);
   } else {
-    card.addEventListener('click', () => card.classList.toggle('list-collapsed'));
+    let longPressTimer = null;
+    let longPressed = false;
+    let swiping = false;
+    let modeSet = false;
+    let startX = 0, startY = 0, hThresh = 0;
+
+    card.addEventListener('pointerdown', e => {
+      startX = e.clientX;
+      startY = e.clientY;
+      hThresh = card.getBoundingClientRect().width / 3;
+      longPressed = false;
+      swiping = false;
+      modeSet = false;
+      longPressTimer = setTimeout(() => {
+        longPressed = true;
+        const current = selectedEvents.get(event.id);
+        if (!current) return;
+        markSelection(event, current.level === 'Highlight' ? 'Interessant' : 'Highlight');
+        buildCards();
+      }, 500);
+    });
+
+    card.addEventListener('pointermove', e => {
+      const dx = e.clientX - startX;
+      const dy = e.clientY - startY;
+      if (!modeSet && (Math.abs(dx) > 8 || Math.abs(dy) > 8)) {
+        modeSet = true;
+        clearTimeout(longPressTimer);
+        longPressTimer = null;
+        if (Math.abs(dx) > Math.abs(dy)) {
+          swiping = true;
+          card.setPointerCapture(e.pointerId);
+        }
+      }
+      if (!swiping) return;
+      const swipeLabel = card.querySelector('.swipe-label');
+      if (dx < 0) {
+        card.style.transition = 'none';
+        card.style.transform = `translateX(${dx}px)`;
+        card.style.opacity = String(Math.max(0, 1 + dx / (hThresh * 3)));
+        if (swipeLabel) {
+          swipeLabel.className = 'swipe-label verzichtbar';
+          swipeLabel.textContent = 'Verzichtbar';
+          swipeLabel.style.opacity = String(Math.min(1, Math.abs(dx) / hThresh));
+        }
+      } else {
+        card.style.transform = '';
+        card.style.opacity = '';
+        if (swipeLabel) swipeLabel.style.opacity = '0';
+      }
+    });
+
+    card.addEventListener('pointerup', e => {
+      clearTimeout(longPressTimer);
+      longPressTimer = null;
+      if (!swiping) return;
+      swiping = false;
+      const dx = e.clientX - startX;
+      if (dx < -hThresh) {
+        card.style.transition = 'transform 0.3s ease-in, opacity 0.3s ease-out';
+        card.style.transform = 'translateX(-150vw)';
+        card.style.opacity = '0';
+        setTimeout(() => { markSelection(event, 'Verzichtbar'); buildCards(); }, 300);
+      } else {
+        const swipeLabel = card.querySelector('.swipe-label');
+        if (swipeLabel) swipeLabel.style.opacity = '0';
+        card.style.transition = 'transform 0.3s ease-out, opacity 0.3s ease-out';
+        card.style.transform = '';
+        card.style.opacity = '';
+        setTimeout(() => { card.style.transition = ''; }, 300);
+      }
+    });
+
+    card.addEventListener('pointercancel', () => {
+      clearTimeout(longPressTimer);
+      longPressTimer = null;
+      if (!swiping) return;
+      swiping = false;
+      card.style.transition = 'transform 0.3s ease-out, opacity 0.3s ease-out';
+      card.style.transform = '';
+      card.style.opacity = '';
+      setTimeout(() => { card.style.transition = ''; }, 300);
+    });
+
+    card.addEventListener('click', () => {
+      if (longPressed) return;
+      card.classList.toggle('list-collapsed');
+    });
   }
   return card;
 }
@@ -520,23 +688,6 @@ function handleDeckAction(event, action) {
   }
 }
 
-function showStamp(card, action) {
-  if (!action) return;
-  const rect = card.getBoundingClientRect();
-  const stamp = document.createElement('div');
-  stamp.className = 'stamp ' + (action === 'Interessant' ? 'stamp-interessant' : action === 'Verzichtbar' ? 'stamp-verzichtbar' : action === 'Highlight' ? 'stamp-highlight' : '');
-  stamp.textContent = action === 'Interessant' ? 'INTERESSANT' : action === 'Verzichtbar' ? 'VERZICHTBAR' : action === 'Highlight' ? 'HIGHLIGHT' : '';
-  // position fixed over card so it doesn't disappear with card animation
-  stamp.style.position = 'fixed';
-  stamp.style.left = (rect.left + rect.width / 2) + 'px';
-  stamp.style.top = (rect.top + rect.height / 2) + 'px';
-  stamp.style.transform = 'translate(-50%, -50%) scale(0.6) rotate(-15deg)';
-  document.body.appendChild(stamp);
-  // trigger visible
-  setTimeout(() => stamp.classList.add('visible'), 10);
-  setTimeout(() => stamp.classList.remove('visible'), 700);
-  setTimeout(() => stamp.remove(), 1000);
-}
 
 function saveSelections() {
   const data = Array.from(selectedEvents.entries()).map(([id, sel]) => ({ id, level: sel.level }));
@@ -592,6 +743,7 @@ function bindControls() {
     clearSelection.addEventListener('click', () => {
       if (settingsMenu) settingsMenu.classList.add('hidden');
       selectedEvents.clear();
+      deckEvents = [...events];
       clearSelection.disabled = true;
       saveSelections();
       buildCards();
