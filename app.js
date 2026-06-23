@@ -14,7 +14,7 @@ const cardModal = document.getElementById('card-modal');
 
 let events = [];
 let deckEvents = [];
-let festivalTitle = 'perspectives';
+let festivalTitle = 'test conference';
 let selectedEvents = new Map();
 let viewMode = 'discover';
 let isAnimating = false;
