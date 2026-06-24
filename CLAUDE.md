@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-A vanilla JavaScript PWA (Progressive Web App) for browsing the altonale festival program in Hamburg. Users swipe through event cards Tinder-style to mark events as "Interessant", "Verzichtbar", or "Highlight".
+A vanilla JavaScript PWA (Progressive Web App) for browsing the a festival or conference program. Users swipe through event cards Tinder-style to mark events as "Interessant", "Verzichtbar", or "Highlight".
 
 ## Running the App
 
@@ -26,7 +26,7 @@ All application logic lives in **three files**:
 - [app.js](app.js) — entire app: data parsing, state, UI rendering, gesture handling
 - [styles.css](styles.css) — all styling; dark purple theme with pink/yellow accents
 
-Data is a single YAML file ([altonale_2026_programm.yaml](altonale_2026_programm.yaml)) parsed client-side at startup via js-yaml. No backend.
+Data is a single YAML file ([test conference.yaml]("test conference.yaml")) parsed client-side at startup via js-yaml. No backend.
 
 ### app.js internals
 
