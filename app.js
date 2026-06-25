@@ -960,7 +960,9 @@ function applyAppConfig(parsed) {
 
 async function loadYaml() {
   try {
-    const response = await fetch(dataUrl);
+    // no-store bypasses the HTTP cache so an edited data file is picked up on the
+    // next load; the service worker still keeps a copy for offline fallback.
+    const response = await fetch(dataUrl, { cache: 'no-store' });
     const raw = await response.text();
     const parsed = jsyaml.load(raw);
     applyAppConfig(parsed);
