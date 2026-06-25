@@ -111,6 +111,14 @@ body {
   cursor: not-allowed;
 }
 
+.settings-cache {
+  color: #f3e6ff;
+  opacity: 0.4;
+  padding: 0.4rem 0.8rem 0.2rem;
+  font-size: 0.7rem;
+  text-align: right;
+}
+
 .tabs {
   display: grid;
   /* Center column is only as wide as "Entdecken"; the two flexible side

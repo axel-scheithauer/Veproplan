@@ -26,7 +26,17 @@ const tabsNav = document.querySelector('.tabs');
 const clearSelection = document.getElementById('clear-selection');
 const settingsBtn = document.getElementById('settings-btn');
 const settingsMenu = document.getElementById('settings-menu');
+const cacheVersionEl = document.getElementById('cache-version');
 const cardModal = document.getElementById('card-modal');
+
+// Show the active cache version in the settings menu, shortened to just the
+// trailing version token (e.g. "veproplan-12" -> "12").
+if (cacheVersionEl && 'caches' in window) {
+  caches.keys().then(keys => {
+    const name = keys.find(k => k.startsWith('veproplan-')) || keys[0];
+    if (name) cacheVersionEl.textContent = name.replace(/^.*-/, '');
+  }).catch(() => {});
+}
 
 let events = [];
 let deckEvents = [];
