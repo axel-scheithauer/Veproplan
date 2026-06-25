@@ -112,11 +112,14 @@ body {
 }
 
 .tabs {
-  display: flex;
+  display: grid;
+  /* Center column is only as wide as "Entdecken"; the two flexible side
+     columns (minmax(0, …) so they never force an overflow) share the rest,
+     giving the long side labels room and keeping them on screen. */
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
   flex-shrink: 0;
-  gap: 0.65rem;
-  justify-content: center;
-  padding: 0.75rem 1rem;
+  padding: 0.7rem 0.5rem;
   background: rgba(18, 4, 26, 0.96);
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 999px;
@@ -126,13 +129,64 @@ body {
 .tab {
   background: transparent;
   color: #f3e6ff;
-  padding: 0.6rem 1rem;
+  padding: 0.55rem 0.55rem;
   border-radius: 8px;
   cursor: pointer;
   font-weight: 700;
+  font-size: clamp(0.72rem, 2.7vw, 0.95rem);
+  white-space: nowrap;
   border: none;
   opacity: 0.9;
 }
+
+/* --- Tab placement per view mode --- */
+/* Discover: Verzichtbar (← left edge) · Entdecken (center) · Interessant (→ right edge) */
+.tabs[data-mode="discover"] #tab-verzichtbar { grid-column: 1; justify-self: start; }
+.tabs[data-mode="discover"] #tab-discover    { grid-column: 2; justify-self: center; }
+.tabs[data-mode="discover"] #tab-interesting { grid-column: 3; justify-self: end; }
+
+/* The two side buttons are shaped like outlined arrows (hollow), pointing
+   in the swipe direction. The element background is the outline colour; the
+   ::before fills the inside with the pill colour, leaving a 2px ring. */
+.tabs[data-mode="discover"] #tab-verzichtbar,
+.tabs[data-mode="discover"] #tab-interesting {
+  position: relative;
+  z-index: 0;
+  border-radius: 0;
+  background: rgba(255, 255, 255, 0.25);
+  opacity: 1;
+}
+
+.tabs[data-mode="discover"] #tab-verzichtbar::before,
+.tabs[data-mode="discover"] #tab-interesting::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  z-index: -1;
+  background: rgba(18, 4, 26, 0.96);
+}
+
+.tabs[data-mode="discover"] #tab-verzichtbar { padding-left: 1rem; }
+.tabs[data-mode="discover"] #tab-verzichtbar,
+.tabs[data-mode="discover"] #tab-verzichtbar::before {
+  clip-path: polygon(0% 50%, 22% 0%, 100% 0%, 100% 100%, 22% 100%);
+}
+
+.tabs[data-mode="discover"] #tab-interesting { padding-right: 1rem; }
+.tabs[data-mode="discover"] #tab-interesting,
+.tabs[data-mode="discover"] #tab-interesting::before {
+  clip-path: polygon(0% 0%, 78% 0%, 100% 50%, 78% 100%, 0% 100%);
+}
+
+/* Verzichtbar list: Verzichtbar (center, no arrow) · Entdecken (right) */
+.tabs[data-mode="verzichtbar"] #tab-verzichtbar { grid-column: 2; justify-self: center; }
+.tabs[data-mode="verzichtbar"] #tab-discover    { grid-column: 3; justify-self: end; }
+.tabs[data-mode="verzichtbar"] #tab-interesting { display: none; }
+
+/* Interessant list: Entdecken (left) · Interessant (center, no arrow) */
+.tabs[data-mode="interesting"] #tab-discover    { grid-column: 1; justify-self: start; }
+.tabs[data-mode="interesting"] #tab-interesting { grid-column: 2; justify-self: center; }
+.tabs[data-mode="interesting"] #tab-verzichtbar { display: none; }
 
 .tab.active {
   border-bottom: 3px solid #ff66c4;

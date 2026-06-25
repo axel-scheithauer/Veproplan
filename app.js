@@ -7,6 +7,8 @@ const hintPanel = document.getElementById('hint-panel');
 const screenTitle = document.getElementById('screen-title');
 const discoverTab = document.getElementById('tab-discover');
 const interestingTab = document.getElementById('tab-interesting');
+const verzichtbarTab = document.getElementById('tab-verzichtbar');
+const tabsNav = document.querySelector('.tabs');
 const clearSelection = document.getElementById('clear-selection');
 const settingsBtn = document.getElementById('settings-btn');
 const settingsMenu = document.getElementById('settings-menu');
@@ -216,10 +218,12 @@ function collapseCard(card) {
 
 function buildCards() {
   cardContainer.innerHTML = '';
-  cardContainer.classList.toggle('list-mode', viewMode === 'interesting');
+  cardContainer.classList.toggle('list-mode', viewMode !== 'discover');
 
   if (viewMode === 'discover') {
     buildDeck();
+  } else if (viewMode === 'verzichtbar') {
+    buildVerzichtbarList();
   } else {
     buildSelectionList();
   }
@@ -334,6 +338,32 @@ function buildSelectionList() {
   }
 }
 
+function buildVerzichtbarList() {
+  const filteredSelections = Array.from(selectedEvents.values())
+    .filter(sel => sel.level === 'Verzichtbar');
+
+  if (filteredSelections.length === 0) {
+    cardContainer.innerHTML = '<div class="loading">Keine verzichtbaren Veranstaltungen.</div>';
+    return;
+  }
+
+  filteredSelections.sort((a, b) => {
+    const aDayStart = floorToDay(a.event.datetime);
+    const bDayStart = floorToDay(b.event.datetime);
+    if (aDayStart !== bDayStart) return aDayStart - bDayStart;
+    if (a.event.allDay && !b.event.allDay) return -1;
+    if (!a.event.allDay && b.event.allDay) return 1;
+    return a.event.datetime - b.event.datetime;
+  });
+
+  // No break rows, no conflict highlighting — plain list in standard color.
+  for (const selection of filteredSelections) {
+    const card = createCard(selection.event, [], 0, false);
+    card.classList.add('stack-list');
+    cardContainer.appendChild(card);
+  }
+}
+
 function createCard(event, visibleList, stackIndex, isDeck) {
   const card = document.createElement('article');
   card.className = 'event-card';
@@ -378,6 +408,15 @@ function createCard(event, visibleList, stackIndex, isDeck) {
   if (isDeck) {
     attachSwipeHandlers(card, event);
   } else {
+    // In the "Verzichtbar" list a swipe to the right re-marks the event as
+    // "Interessant"; in the "Interessant" list a swipe to the left marks it
+    // "Verzichtbar". swipeDir is +1 for right, -1 for left.
+    const isVerzichtbarList = viewMode === 'verzichtbar';
+    const swipeDir = isVerzichtbarList ? 1 : -1;
+    const swipeAction = isVerzichtbarList ? 'Interessant' : 'Verzichtbar';
+    const swipeLabelClass = isVerzichtbarList ? 'interessant' : 'verzichtbar';
+    const swipeLabelText = isVerzichtbarList ? '♥ Interessant' : 'Verzichtbar';
+
     let longPressTimer = null;
     let longPressed = false;
     let swiping = false;
@@ -392,6 +431,8 @@ function createCard(event, visibleList, stackIndex, isDeck) {
       swiping = false;
       modeSet = false;
       longPressTimer = setTimeout(() => {
+        // Long-press toggles Highlight only in the "Interessant" list.
+        if (isVerzichtbarList) return;
         longPressed = true;
         const current = selectedEvents.get(event.id);
         if (!current) return;
@@ -414,13 +455,13 @@ function createCard(event, visibleList, stackIndex, isDeck) {
       }
       if (!swiping) return;
       const swipeLabel = card.querySelector('.swipe-label');
-      if (dx < 0) {
+      if (dx * swipeDir > 0) {
         card.style.transition = 'none';
         card.style.transform = `translateX(${dx}px)`;
-        card.style.opacity = String(Math.max(0, 1 + dx / (hThresh * 3)));
+        card.style.opacity = String(Math.max(0, 1 - Math.abs(dx) / (hThresh * 3)));
         if (swipeLabel) {
-          swipeLabel.className = 'swipe-label verzichtbar';
-          swipeLabel.textContent = 'Verzichtbar';
+          swipeLabel.className = `swipe-label ${swipeLabelClass}`;
+          swipeLabel.textContent = swipeLabelText;
           swipeLabel.style.opacity = String(Math.min(1, Math.abs(dx) / hThresh));
         }
       } else {
@@ -436,11 +477,11 @@ function createCard(event, visibleList, stackIndex, isDeck) {
       if (!swiping) return;
       swiping = false;
       const dx = e.clientX - startX;
-      if (dx < -hThresh) {
+      if (dx * swipeDir > hThresh) {
         card.style.transition = 'transform 0.3s ease-in, opacity 0.3s ease-out';
-        card.style.transform = 'translateX(-150vw)';
+        card.style.transform = `translateX(${swipeDir * 150}vw)`;
         card.style.opacity = '0';
-        setTimeout(() => { markSelection(event, 'Verzichtbar'); buildCards(); }, 300);
+        setTimeout(() => { markSelection(event, swipeAction); buildCards(); }, 300);
       } else {
         const swipeLabel = card.querySelector('.swipe-label');
         if (swipeLabel) swipeLabel.style.opacity = '0';
@@ -719,6 +760,8 @@ function markSelection(event, level) {
 function updateTabButtons() {
   discoverTab.classList.toggle('active', viewMode === 'discover');
   interestingTab.classList.toggle('active', viewMode === 'interesting');
+  verzichtbarTab.classList.toggle('active', viewMode === 'verzichtbar');
+  if (tabsNav) tabsNav.dataset.mode = viewMode;
 }
 
 function bindControls() {
@@ -730,6 +773,12 @@ function bindControls() {
 
   interestingTab.addEventListener('click', () => {
     viewMode = 'interesting';
+    updateTabButtons();
+    buildCards();
+  });
+
+  verzichtbarTab.addEventListener('click', () => {
+    viewMode = 'verzichtbar';
     updateTabButtons();
     buildCards();
   });
