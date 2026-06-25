@@ -1,4 +1,4 @@
-const CACHE_NAME = 'veproplan-12';
+const CACHE_NAME = 'veproplan-14';
 const ASSETS = [
   './',
   './index.html',
@@ -28,6 +28,14 @@ self.addEventListener('activate', event => {
       )
     ).then(() => self.clients.claim())
   );
+});
+
+// Report which cache (version) this worker is serving, so the page can show the
+// version of the worker actually in control.
+self.addEventListener('message', event => {
+  if (event.data && event.data.type === 'get-version' && event.ports[0]) {
+    event.ports[0].postMessage({ cache: CACHE_NAME });
+  }
 });
 
 // Network-first: always try to fetch the freshest copy (so code updates apply

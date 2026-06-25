@@ -29,14 +29,27 @@ const settingsMenu = document.getElementById('settings-menu');
 const cacheVersionEl = document.getElementById('cache-version');
 const cardModal = document.getElementById('card-modal');
 
-// Show the active cache version in the settings menu, shortened to just the
-// trailing version token (e.g. "veproplan-12" -> "12").
-if (cacheVersionEl && 'caches' in window) {
-  caches.keys().then(keys => {
-    const name = keys.find(k => k.startsWith('veproplan-')) || keys[0];
-    if (name) cacheVersionEl.textContent = name.replace(/^.*-/, '');
-  }).catch(() => {});
+// Show the version of the service worker that is actually controlling the page,
+// shortened to just the trailing token (e.g. "veproplan-12" -> "12"). Asking the
+// controller is the source of truth: on iOS a homescreen app can keep running an
+// old worker, and this makes that visible instead of guessing from caches.keys().
+function showCacheVersion() {
+  if (!cacheVersionEl) return;
+  const sw = navigator.serviceWorker && navigator.serviceWorker.controller;
+  if (sw) {
+    const ch = new MessageChannel();
+    ch.port1.onmessage = e => {
+      if (e.data && e.data.cache) cacheVersionEl.textContent = 'version ' + e.data.cache.replace(/^.*-/, '');
+    };
+    sw.postMessage({ type: 'get-version' }, [ch.port2]);
+  } else if ('caches' in window) {
+    caches.keys().then(keys => {
+      const name = keys.find(k => k.startsWith('veproplan-')) || keys[0];
+      if (name) cacheVersionEl.textContent = 'version ' + name.replace(/^.*-/, '');
+    }).catch(() => {});
+  }
 }
+showCacheVersion();
 
 let events = [];
 let deckEvents = [];
@@ -962,8 +975,21 @@ async function loadYaml() {
 }
 
 if ('serviceWorker' in navigator) {
+  // When a new worker takes control (after skipWaiting/clients.claim), reload once
+  // so the homescreen app actually shows the fresh assets instead of the old cache.
+  let refreshing = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (refreshing) return;
+    refreshing = true;
+    window.location.reload();
+  });
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('service-worker.js').catch(console.error);
+    // updateViaCache:'none' forces the SW script itself to be fetched from the
+    // network, so iOS can't keep serving a stale service-worker.js; update() then
+    // triggers an immediate check on every launch.
+    navigator.serviceWorker.register('service-worker.js', { updateViaCache: 'none' })
+      .then(reg => reg.update())
+      .catch(console.error);
   });
 }
 
