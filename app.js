@@ -1,7 +1,21 @@
+const _yamlPattern = /^[\w\-. ]+\.ya?ml$/i;
 const _yamlParam = new URLSearchParams(location.search).get('yaml');
-const dataUrl = (_yamlParam && /^[\w\-. ]+\.ya?ml$/i.test(_yamlParam))
-  ? _yamlParam
-  : 'test conference.yaml';
+// The installed (home-screen) app launches via start_url WITHOUT the ?yaml=
+// parameter, so we remember the last program that was opened and reload it.
+// Otherwise the app would fall back to the default program and the saved
+// selections (keyed by event id) would no longer match anything.
+function resolveDataUrl() {
+  if (_yamlParam && _yamlPattern.test(_yamlParam)) {
+    try { localStorage.setItem('veproplan-yaml', _yamlParam); } catch {}
+    return _yamlParam;
+  }
+  try {
+    const stored = localStorage.getItem('veproplan-yaml');
+    if (stored && _yamlPattern.test(stored)) return stored;
+  } catch {}
+  return 'test conference.yaml';
+}
+const dataUrl = resolveDataUrl();
 const cardContainer = document.getElementById('card-container');
 const hintPanel = document.getElementById('hint-panel');
 const screenTitle = document.getElementById('screen-title');
