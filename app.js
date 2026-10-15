@@ -53,7 +53,7 @@ showCacheVersion();
 
 let events = [];
 let deckEvents = [];
-let festivalTitle = 'test conference';
+let festivalTitle = 'ansys  conference';
 let selectedEvents = new Map();
 let viewMode = 'discover';
 let isAnimating = false;
