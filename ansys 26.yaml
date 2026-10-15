@@ -1,0 +1,214 @@
+# Ansys Aerospace & Defence Summit 2026 - Programm
+festival:
+  name: "Ansys Aerospace & Defence Summit"
+  jahr: 2026
+  datum: "2026-10-14"
+  datum_bis: "2026-10-15"
+  ort: "Empire Riverside Hotel, Bernhard-Nocht-Straße 97, 20359 Hamburg"
+  veranstalter: "Ansys part of Synopsys"
+  quelle: "https://ansys.synopsys.com/de-de/events/aerospace-defense-summit"
+
+programm:
+
+  # --- Networking Day, Mittwoch 14.10. ---
+
+  - zeitpunkt: "2026-10-14T15:00"
+    ort: "ElbAir, Neßdeich 189, 21129 Hamburg"
+    titel: "Networking-Event: Airbus-Werksführung"
+    format: "Networking"
+    hinweis: "Ausgebucht. Treffpunkt 15:00; gültigen Ausweis und geschlossene Schuhe mitbringen."
+
+  - zeitpunkt: "2026-10-14T19:00"
+    ort: "Empire Riverside Hotel"
+    titel: "Welcome Dinner"
+    format: "Networking"
+    hinweis: "Ab 19:00 Uhr, optional"
+
+  # --- Konferenztag, Donnerstag 15.10.: Impulsvorträge ---
+
+  - zeitpunkt: "2026-10-15T08:30"
+    ort: "Plenum"
+    titel: "Registrierung"
+    format: "Rahmen"
+    dauer: "30 Min."
+
+  - zeitpunkt: "2026-10-15T09:00"
+    ort: "Plenum"
+    titel: "Begrüßung und einleitende Worte"
+    format: "Impulsvortrag"
+    sprecher: ["Christoph Kohl – Executive Director, Ansys part of Synopsys"]
+    dauer: "10 Min."
+
+  - zeitpunkt: "2026-10-15T09:10"
+    ort: "Plenum"
+    titel: "Zielvorstellung Bundeswehr 2035: Die digitalen Streitkräfte zwischen Vision und Realität"
+    format: "Impulsvortrag"
+    sprecher: ["Clemens Speer – Branchenexperte, Sicherheit und Verteidigung"]
+    dauer: "20 Min."
+
+  - zeitpunkt: "2026-10-15T09:30"
+    ort: "Plenum"
+    titel: "Kurs Innovation: Die F127 als Möglichkeit für modernste Technologieadaption"
+    format: "Impulsvortrag"
+    sprecher: ["Patrick Buggenthin – VP Program Line A400 TKMS, CEO der A400 Frigate Company GmbH"]
+    dauer: "20 Min."
+
+  - zeitpunkt: "2026-10-15T09:50"
+    ort: "Plenum"
+    titel: "Digital Resilience Under Fire: Lessons from Ukraine for the Future of Defense"
+    format: "Impulsvortrag"
+    sprecher: ["Volodymyr Dmytrenko – Träger der ukrainischen Tapferkeitsmedaille, Microsoft"]
+    dauer: "20 Min."
+
+  - zeitpunkt: "2026-10-15T10:10"
+    ort: "Plenum"
+    titel: "Kaffeepause"
+    format: "Rahmen"
+    dauer: "30 Min."
+
+  # --- Breakouts, Block 1 ---
+
+  - zeitpunkt: "2026-10-15T10:40"
+    ort: "Breakout: Certification assisted by Analysis"
+    titel: "Ansys Einführung"
+    format: "Breakout"
+    dauer: "15 Min."
+
+  - zeitpunkt: "2026-10-15T10:40"
+    ort: "Breakout: Digital Mission Engineering"
+    titel: "Ansys Einführung"
+    format: "Breakout"
+    dauer: "15 Min."
+
+  - zeitpunkt: "2026-10-15T10:40"
+    ort: "Breakout: Engineering Automatization"
+    titel: "Ansys Einführung"
+    format: "Breakout"
+    dauer: "15 Min."
+
+  - zeitpunkt: "2026-10-15T10:55"
+    ort: "Breakout: Certification assisted by Analysis"
+    titel: "Digitale Aerodynamik: GPU-beschleunigte CFD-Simulationen für die Luftfahrt von morgen"
+    format: "Breakout"
+    sprecher: ["John Stokes – Vice President Software Engineering, Ansys part of Synopsys"]
+    dauer: "30 Min."
+
+  - zeitpunkt: "2026-10-15T10:55"
+    ort: "Breakout: Digital Mission Engineering"
+    titel: "Simulation-Driven Performance: Wie automatisierte Modellierung den Missionserfolg autonomer Konstellationen sichert"
+    format: "Breakout"
+    sprecher: ["Dr. Alexander Busch, ESEP – Senior Application Engineer, Ansys part of Synopsys"]
+    dauer: "30 Min."
+
+  - zeitpunkt: "2026-10-15T10:55"
+    ort: "Breakout: Engineering Automatization"
+    titel: "To the Stars ... through the Cloud"
+    format: "Breakout"
+    sprecher:
+      - "Nils Bernhardt – Chief Digital Officer & Co-Founder, The Exploration Company"
+      - "Rebecca Meads – Senior Solutions Architect, Amazon Web Services – Aerospace and Satellite"
+    dauer: "30 Min."
+
+  - zeitpunkt: "2026-10-15T11:25"
+    ort: "Breakout: Certification assisted by Analysis"
+    titel: "How numerical simulations help us making better experiments"
+    format: "Breakout"
+    sprecher: ["Peter Simkens – Director for Strategy and Partnerships, von Karman Institute for Fluid Dynamics (VKI)"]
+    dauer: "40 Min."
+
+  - zeitpunkt: "2026-10-15T11:25"
+    ort: "Breakout: Digital Mission Engineering"
+    titel: "Counter-UAV: Simulating the Complete Sensor-to-Shooter Workflow"
+    format: "Breakout"
+    sprecher: ["Oliver Gass – Senior Product Manager, Ansys part of Synopsys"]
+    dauer: "40 Min."
+
+  - zeitpunkt: "2026-10-15T11:25"
+    ort: "Breakout: Engineering Automatization"
+    titel: "Automatic Architecture Generation and Optimization in SysML v2"
+    format: "Breakout"
+    sprecher: ["Dr. Jasper Bussemaker – Researcher System Architecture Optimization / MDAO / MBSE, DLR"]
+    dauer: "40 Min."
+
+  - zeitpunkt: "2026-10-15T12:05"
+    ort: "Plenum"
+    titel: "Mittagspause"
+    format: "Rahmen"
+    dauer: "60 Min."
+
+  # --- Breakouts, Block 2 ---
+
+  - zeitpunkt: "2026-10-15T13:05"
+    ort: "Breakout: Certification assisted by Analysis"
+    titel: "Extending Life, Enabling Change: Wie Next-Gen-Simulation MRO verändert"
+    format: "Breakout"
+    sprecher: ["Stefan Kuntzagk – Senior Engineer Aircraft Performance, CFD and Flight Test, Lufthansa Technik"]
+    dauer: "40 Min."
+
+  - zeitpunkt: "2026-10-15T13:05"
+    ort: "Breakout: Digital Mission Engineering"
+    titel: "Missionsbasierte Nutzungsphase – Steigerung der Einsatzfähigkeit und Effizienz"
+    format: "Breakout"
+    sprecher: ["Christoph Geissler – Sales Manager Services, Hensoldt"]
+    dauer: "40 Min."
+
+  - zeitpunkt: "2026-10-15T13:05"
+    ort: "Breakout: Engineering Automatization"
+    titel: "Bridging Process and Product Across the Lifecycle – The Digital Twin Strategy of ESA"
+    format: "Breakout"
+    sprecher: ["Tharshan Maheswaran – Internal Research Fellow on Digital Twins, ESA"]
+    dauer: "40 Min."
+
+  - zeitpunkt: "2026-10-15T13:45"
+    ort: "Breakout: Certification assisted by Analysis"
+    titel: "Explosive Erkenntnisse: Wie unser Hans (Ansys HBM) Systeme im Defence sicherer macht"
+    format: "Breakout"
+    sprecher: ["Maik Schenke – Geschäftsfeldentwicklung, Ansys part of Synopsys"]
+    dauer: "40 Min."
+
+  - zeitpunkt: "2026-10-15T13:45"
+    ort: "Breakout: Digital Mission Engineering"
+    titel: "Die Zukunft der Missionsvorbereitung: Interoperabilität und Datenanalyse im LVC-Umfeld"
+    format: "Breakout"
+    sprecher: ["Uwe Wozniak – Geschäftsführer, Lintacs GmbH (in Zusammenarbeit mit der Märzen Group)"]
+    dauer: "40 Min."
+
+  - zeitpunkt: "2026-10-15T13:45"
+    ort: "Breakout: Engineering Automatization"
+    titel: "Von der Entwicklung zur Zertifizierung: Digitale Governance für Aerospace & Defence"
+    format: "Breakout"
+    sprecher: ["Carsten Kindler – Director of Field Application Engineering, Altium"]
+    dauer: "40 Min."
+
+  - zeitpunkt: "2026-10-15T14:25"
+    ort: "Plenum"
+    titel: "Kaffeepause"
+    format: "Rahmen"
+    dauer: "30 Min."
+
+  # --- Gemeinsame Abschlusssessions ---
+
+  - zeitpunkt: "2026-10-15T14:55"
+    ort: "Plenum"
+    titel: "Symphonie der Domänen – vom Sensor zum Effektor"
+    format: "Abschlusssession"
+    sprecher:
+      - "Helge Flegel – Senior Manager, Accenture"
+      - "Kristofer Berning – Regional Manager Team A/S/D, Ansys part of Synopsys"
+    dauer: "40 Min."
+
+  - zeitpunkt: "2026-10-15T15:35"
+    ort: "Plenum"
+    titel: "Silicon to System – Die Evolution der softwaredefinierten Verteidigung"
+    format: "Abschlusssession"
+    sprecher:
+      - "Michael Hartmann – Director Solutions Engineering, Synopsys"
+      - "Ralph Habig – Leiter Geschäftsfeldentwicklung, Ansys part of Synopsys"
+      - "Martin Sauerschnig – Chief Executive Officer, FERCHAU GmbH"
+    dauer: "40 Min."
+
+  - zeitpunkt: "2026-10-15T16:15"
+    ort: "Plenum"
+    titel: "Abschluss & Zusammenfassung"
+    format: "Abschlusssession"
+    dauer: "40 Min."
